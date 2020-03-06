@@ -58,7 +58,7 @@
     "jwt-simple": "^0.5.1",
     "leaflet": "^0.7.7",
     "leaflet.markercluster": "^0.4.0",
-    "lodash": "^3.9.3",
+    "lodash": "^4.17.15",
     "mime": "^2.0.3",
     "minimist": "*",
     "moment": "^2.10.6",
