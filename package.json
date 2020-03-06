@@ -63,7 +63,7 @@
     "minimist": "*",
     "moment": "^2.10.6",
     "mongodb": "^1.4.37",
-    "mongoose": "^4.0.2",
+    "mongoose": "^5.9.3",
     "mongoskin": "^1.4.13",
     "morgan": "~1.5.2",
     "multer": "^1.1.0",
