@@ -65,7 +65,7 @@
     "mongodb": "^1.4.37",
     "mongoose": "^4.0.2",
     "mongoskin": "^1.4.13",
-    "morgan": "~1.5.2",
+    "morgan": "~1.9.1",
     "multer": "^1.1.0",
     "node-libs-browser": "^0.5.2",
     "node-sass": "^3.2.0",
