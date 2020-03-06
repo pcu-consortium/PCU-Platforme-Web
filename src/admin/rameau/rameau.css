@@ -1,0 +1,47 @@
+
+.panel-side-content .field-name {
+    width: 140px;
+    min-width: 140px;
+}
+
+.list-condensed a.list-group-item {
+    font-size: 13px;
+    padding: 6px 10px 6px 10px;
+}
+
+.tree-entry {
+    color: #555;
+}
+
+.tree-entry>a {
+    color: #555;
+    position: relative;
+    display: block;
+    font-size: 13px;
+    padding: 0px 6px;
+    /*margin-bottom: -1px;*/
+    /*background-color: #fff;*/
+    /*border: 1px solid #ddd;*/
+}
+
+.tree-entry>a:hover {
+    color: #555;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+.tree-entry>a.active, .tree-entry>a.active:hover {
+    color: #555;
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.tree-entry>a>button,
+.tree-entry>a>button:focus,
+.tree-entry>a>button:hover {
+    color: #555;
+}
+
+.tree-entry>a>.btn-sm {
+    padding: 5px 6px;
+}

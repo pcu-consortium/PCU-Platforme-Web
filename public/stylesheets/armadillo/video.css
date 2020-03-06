@@ -1,0 +1,342 @@
+html {
+    /*overflow-y:scroll;*/
+}
+
+.fluid-container {
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video-container {
+  width:100%;
+  padding: 0px;
+}
+.video {
+  width:100%;
+  /*height:100%;*/
+}
+.manual-tab-pane {
+  display: none;
+  visibility: hidden;
+}
+
+.manual-tab-pane.selected {
+  display: block;
+  visibility: visible;
+}
+
+.timeline {
+  position: relative; 
+  width: 100%; 
+  height: 32px; 
+  background: #333;
+  margin-bottom: 4px;
+  border: 1px solid #333;
+}
+
+.timeline-item {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+  border-right: 1px solid #CCC;
+}
+
+.timeline .timeline-item:nth-of-type(even){
+  background: #eee;
+}
+
+.timeline .timeline-item:nth-of-type(odd){
+  background: #ddd;
+}
+
+.timeline .timeline-item:hover, .timeline .timeline-item.hover:not(.selected){
+  background: #c4e3f3;
+  background-image: linear-gradient(rgb(217, 237, 247) 0px, rgb(196, 227, 243) 100%);
+}
+
+.timeline .timeline-item.selected { 
+  background: #428bca;
+}
+
+.timeline .tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #428bca; /* black */
+  border-width: 0 5px 5px;
+}
+
+.timeline .tooltip.bottom .tooltip-inner {
+  background-image: linear-gradient(to bottom,#428bca 0,#3278b3 100%);
+}
+
+.timeline-marker {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #d9534f;
+  z-index: 2;
+}
+
+.form-control-inline {
+    min-width: 0;
+    width: 100%;
+    display: inline;
+}
+
+/*.tab-content {*/
+  /*border-left: 1px solid #ddd;*/
+  /*border-right: 1px solid #ddd;*/
+  /*border-bottom: 1px solid #ddd;*/
+  /*padding: 10px;*/
+/*}*/
+
+.sequence-item.list-group-item {
+  padding: 6px;
+}
+
+.sequence-item.list-group-item:hover:not(.active),.sequence-item.list-group-item.hover:not(.active) {
+  padding: 6px;
+  background: #c4e3f3;
+  background-image: linear-gradient(rgb(217, 237, 247) 0px, rgb(196, 227, 243) 100%);
+}
+
+.header-button {
+    cursor: pointer;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.edit-btn {
+    cursor: pointer;
+    padding: 4px;
+}
+
+.table-info tbody>tr>td {
+  padding: 4px;
+}
+
+.table-info tbody>tr>td>p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.editableform .form-control {
+  width: 400px;
+}
+
+.editableform .form-control,.tt-hint {
+  width: 400px;
+}
+
+.select2-container.select2-container-multi{
+  width: 400px;  
+}
+.select2-container{
+  width: 400px;  
+}
+
+.panel-heading.collapsable .collapser:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";    
+  float: right; 
+  transition: transform 0.1s;
+}
+
+.panel-heading.collapsable .collapser.collapsed:after {
+    /*content: "\e080";  */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.panel-heading.collapsable a:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";    
+  float: right; 
+  transition: transform 0.1s;
+}
+.panel-heading.collapsable a.collapsed:after {
+    /*content: "\e080";*/
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+
+
+.document-heading.collapsable a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";    
+    float: right; 
+  transition: transform 0.1s;
+}
+.document-heading.collapsable a.collapsed:after {
+    text-decoration: none;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+    /*content: "\e080";*/
+}
+
+.affix-top,.affix{
+  position: static;
+}
+
+@media (min-width: 992px) {
+
+  #sidebar-video.affix-top {
+  position: static;
+  }
+  
+  #sidebar-video.affix {
+  position: fixed;
+  top: 20px;
+  }
+
+}
+
+.nounderline, .nounderline:hover, .nounderline:focus{
+  text-decoration: none;
+}
+
+.document-heading a {
+  color: #337ab7 !important;
+}
+
+
+.resizable { 
+  z-index: 1;
+}
+
+.video-js {
+    width: 100% !important;
+    height: auto !important;
+}
+.video-js:after {
+    content: '.';
+    display: block;
+    position: relative;
+    padding: 75% 0 0 0; /* (height/width)*100%, eg. 56.25% for 16:9 75% for 4:3 */
+    margin: 0 0 0 -100%;
+    visibility: hidden;
+    height: 0; 
+}
+
+/*.editable-container {
+  width: 100%;
+}*/
+
+/* Make inline editables take the full width of their parents */
+/*.editable-container.editable-inline,
+.editable-container.editable-inline .control-group.form-group,
+.editable-container.editable-inline .control-group.form-group .editable-input,
+.editable-container.editable-inline .control-group.form-group .editable-input textarea,
+.editable-container.editable-inline .control-group.form-group .editable-input select,
+.editable-container.editable-inline .control-group.form-group .editable-input input:not([type=radio]):not([type=checkbox]):not([type=submit])
+{
+    width: 100%;
+}*/
+
+/*.editable-container.editable-inline .control-group.form-group .editable-buttons {
+  float: right;
+}*/
+/*.editable-wrap{
+  display:inline-block;
+  white-space:nowrap;
+  margin:0;
+  width:100%;
+}
+.editable-wrap .editable-controls,.editable-wrap .editable-error{
+  margin-bottom:0;
+  width:100%;
+}*/
+
+.list-group-item.active .badge {
+    background-color: #3498db;
+}
+
+.list-group-item .mini-commands {
+  display: none;
+}
+
+.list-group-item.active .mini-commands {
+  display: block;
+}
+
+.badge.closeable:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e014";    
+    float: right; 
+}
+
+.badge.closeable {
+  cursor: pointer;
+}
+
+
+html[dir="ltr"] .butter-tray {
+  background: #FFF;
+  position: fixed;
+  z-index: 10001;
+  height: 205px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.panel-timeline .panel-body {
+  padding: 0px;
+  position: relative;
+}
+
+.progress-bar {
+  transition: width .1s ease;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+  right: 0px;
+}
+
+.form .clearer {
+  pointer-events: auto;
+}
+
+img.document-field {
+  width: 320px;
+}
+
+.modal-backdrop {
+    z-index: 1020;
+}
+
+.modal-dialog {
+    z-index: 1050;
+}
+
+/*.modal.modal-wide .modal-dialog {
+  width: 90%;
+}*/
+
+.image-container.target {
+  margin-top: 40px;
+}
+
+.vt-container .progress {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 10px;
+}
+
+
+
+.document-field {
+    word-wrap: break-word;
+}
+
+

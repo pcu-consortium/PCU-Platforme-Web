@@ -1,0 +1,1232 @@
+{
+  "id": "<http://campus-aar.fr/asa#f810dcc8-91bc-4d71-9e8d-fa4b67c1bdb8>",
+  "type": [
+    "<http://campus-aar.fr/asa#0f82d3c5-1d9b-4ade-8418-8edfa371fd31>",
+    "<http://www.ina.fr/core#Analysis>"
+  ],
+  "ontology": "<http://campus-aar.fr/asa/arc.owl>",
+  "label": "\"Tranches de vie à Hong-Kong\"@fr",
+  "shortDescription": "Scènes de la vie quotidienne hongkongaise classées thématiquement.",
+  "description": "L'ensemble de la vidéo apporte un témoignage sur la vie quotidienne à Hong Kong. Elle se décompose en une série de courts clips qui, chacun, traite d'un thème particulier apportant ainsi un éclairage sur le paysage sonore et visuel de la ville. Passer du bruit des grandes routes au silence et au recueillement émanant des temples, du brouhaha des rues aux cliquetis émis dans le fond des cuisines, tels sont les objectifs proposés ces diffférents passages. Dans ce sens, ces vidéos sont un témoignage de vie qui pourra intéresser nombre de public, l'idée étant de fournir un matériel brut pour chercheurs, enseignants ou toute personne désireuse de s’initier, de mieux connaître, de « toucher avec ses yeux » la réalité de tous les jours d’un hongkongais. ",
+  "howToQuote": "DE PABLO Elisabeth. « Tranches de vie à Hong-Kong » (Portail ARC, 2011) : http://www.arc.msh-paris.fr/",
+  "<http://campus-aar.fr/asa#0173a150-a2e9-42ae-80fa-ca30f5f47658-prop>": "\"Cette ressource audiovisuelle est protégée par le régime \"Creative Commons\". Vous êtes libres de la reproduire, distribuer et communiquer au public. Mais vous devez impérativement signaler sa paternité (son ou ses auteurs), vous n'avez pas le droit de la modifier ni d'en faire un usage commercial. Lecture, diffusion et exploitation concrète de cette ressource audiovisuelle présuppose que vous ayez accepté les règles juridiques Creative Commons décrites dans la page :  \"http://creativecommons.org/licenses/by-nc-nd/2.0/fr/\"\\n\\n",
+  "<http://campus-aar.fr/asa#776f8ec9-879f-45b7-a025-fb3f8de943fd-prop>": "© DE PABLO, Elisabeth, Ingénieur de recherche, ESCoM-FMSH, Paris, France, 2011\\n\\n",
+  "document": "<http://campus-aar.fr/asa#d2a41e97-4f57-4365-8149-fbbc51ea6d49>",
+  "layer": [
+    {
+      "id": "<http://campus-aar.fr/asa#2fa7557d-1a3e-4ad0-ab74-e70ab2c8e0c8>",
+      "ontology": "<http://campus-aar.fr/asa/arc.owl>",
+      "type": "<http://www.ina.fr/core#TemporalLayer>",
+      "document": "<http://campus-aar.fr/asa#d2a41e97-4f57-4365-8149-fbbc51ea6d49>",
+      "segment": [
+        {
+          "id": "<http://campus-aar.fr/asa#2fa7557d-1a3e-4ad0-ab74-e70ab2c8e0c8_0>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 0,
+          "label": "Vie quotidienne à Hong-Kong",
+          "subTitle": "香港，一个关于日常生活的视听文件",
+          "dateOfRealisation": "\"2007-04-09T15:13:10\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+          "mediaDuration": "1h 33mn 20s 16",
+          "place": "Hong-Kong, Chine",
+          "shortDescription": "Scènes de la vie quotidienne à Hong Kong.",
+          "language": [
+            "fr",
+            "zh"
+          ],
+          "description": "Le but principal de ces vidéos n’est pas de constituer des documentaires sui generis mais de fournir un matériel de travail pratiquement brut pour chercheurs, enseignants ou toute personne désireuse de s’initier, de mieux connaître, de « toucher avec ses yeux » la réalité de tous les jours d’un hongkongais. \\n\\n",
+          "howToQuote": "BONNEMAZOU Camille, STOCKINGER Peter. \" Vie quotidienne à Hong-Kong \", Archives Audiovisuelles de la Recherche (AAR), n°1108, 2007, [en ligne] ; URL : http://www.archivesaudiovisuelles.fr/1108/",
+          "<http://campus-aar.fr/asa#f3475b98-edab-4468-ab28-74400ac9a702-prop>": "Cette ressource audiovisuelle est protégée par le régime \"Creative Commons\". Vous êtes libres de la reproduire, distribuer et communiquer au public. Mais vous devez impérativement signaler sa paternité (son ou ses auteurs), vous n'avez pas le droit de la modifier ni d'en faire un usage commercial. Lecture, diffusion et exploitation concrète de cette ressource audiovisuelle présuppose que vous ayez accepté les règles juridiques Creative Commons décrites dans la page : \"http://creativecommons.org/licenses/by-nc-nd/2.0/fr/",
+          "<http://campus-aar.fr/asa#72b02f5d-b4b9-4bc1-935e-b6412e8be5f4-prop>": "© ESCoM (Equipe Sémiotique Cognitive et Nouveaux Médias), FMSH (Fondation Maison des Sciences de l'Homme), France, 2007",
+          "<http://campus-aar.fr/asa#895e1049-8207-4e80-9f8a-9e7786f08b20-prop>": "© BONNEMAZOU, Camille, ESCoM-FMSH, Hong-Kong, 2007\\n© STOCKINGER, Peter, Directeur de l'ESCoM, FMSH, Hong-Kong, 2007",
+          "<http://campus-aar.fr/asa#1ebc500a-1f55-43c6-93d3-165b33733ee4-prop>": "© ESCoM (Equipe Sémiotique Cognitive et Nouveaux Médias), FMSH (Fondation Maison des Sciences de l'Homme), France, 2007",
+          "subject": [
+            "<http://campus-aar.fr/asa#b20c3aa1-d962-4bd5-8e85-9d93a4b094a6>",
+            "<http://campus-aar.fr/asa#5dd83352-c758-41d7-b740-51e15a200ead>",
+            "<http://campus-aar.fr/asa#0521821a-1d60-48e9-9a3b-95a55fe6a65d>",
+            "<http://campus-aar.fr/asa#7086fde5-b7d9-44bc-aca4-7db822c4cf53>",
+            "<http://campus-aar.fr/asa#64db5534-9106-47b3-ad15-8c20927a3287>",
+            "<http://campus-aar.fr/asa#0c413a72-6a61-4b61-9b68-d1652a521c33>"
+          ],
+          "<http://campus-aar.fr/asa#4390abe6-e1d6-4ab2-ae5a-476a2ef06d72-prop>": {
+            "id": "<http://campus-aar.fr/asa#02ac12e4-d5e0-4446-a71f-5debccb04899>",
+            "type": "<http://campus-aar.fr/asa#5806b82f-49c2-4fc5-a775-71b92d08cba2>",
+            "lastname": "Bonnemazou",
+            "forname": "Camille",
+            "label": "Camille Bonnemazou",
+            "birthDate": "\"1754-01-01T00:00:00\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+            "city": "Paris ",
+            "country": "France",
+            "activity": "Ingénieur audiovisuel",
+            "institution": "<http://campus-aar.fr/asa#8c7a9128-7e0f-4a76-b9b3-2ba5d0d9bb78>"
+          },
+          "<http://campus-aar.fr/asa#5806b82f-49c2-4fc5-a775-71b92d08cba2-prop>": {
+            "id": "<http://campus-aar.fr/asa#08b82d94-83a9-4fee-9197-2a0d019ce7ed>",
+            "type": "<http://campus-aar.fr/asa#00764e75-b6d6-47b4-9246-7abd84cbef2b>",
+            "lastname": "Stockinger",
+            "forname": "Peter",
+            "label": "Peter Stockinger",
+            "email": "stockinger@msh-paris.fr",
+            "birthDate": "\"1754-01-01T00:00:00\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+            "city": "Paris",
+            "country": "France",
+            "activity": "Professeur des Universités",
+            "institution": "<http://campus-aar.fr/asa#c74d887b-3d64-4acb-9aa0-693dcde2cdbc>",
+            "description": "Peter Stockinger est Directeur de l'ESCoM, Professeur des Universités, et Co-directeur de la filière CFI à l'INALCO. "
+          },
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#ee029002-9ac9-47d1-b8ad-60dbe6cee59e>",
+              "type": "<http://campus-aar.fr/asa#3798135f-a1c3-41ed-a8bd-b97997d91671>",
+              "label": "La Chine vue du bord (1/4) : \"Hong Kong : Les enfants en supplément\"",
+              "url": "http://www.franceculture.com/emission-sur-les-docks-la-chine-vue-du-bord-14-hong-kong-les-enfants-en-supplement-2010-10-05.html",
+              "author": "France Culture",
+              "description": "Un documentaire sonore  d'Alain Lewkowicz et Rafik Zenine diffusé sur France Culture le 5 octobre 2010. \\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#07e0b690-2d41-41b3-bb72-abb8a0132665>",
+              "type": "<http://campus-aar.fr/asa#20e59958-9579-4bae-a408-14d7c9cde9c0>",
+              "label": "Hong Kong : économie, société, culture",
+              "author": "Louis Augustin-Jean et Florence Padovani",
+              "description": "Edition Hamattan, 1970"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#0480e134-61a0-4625-b14b-04fb4b05a7ea>",
+              "type": "<http://campus-aar.fr/asa#3798135f-a1c3-41ed-a8bd-b97997d91671>",
+              "label": "La Chine vue du bord (2/4) : \"Hong Kong : 7 000000 d’habitants, 1 104 km2, troisième place financière mondiale et 20% de pauvres",
+              "url": "http://www.franceculture.com/emission-sur-les-docks-la-chine-vue-du-bord-24-hong-kong-7-000000-d%E2%80%99habitants-1-104-km2-troisieme-pl",
+              "author": "France Culture",
+              "description": "Un documentaire sonore  d'Alain Lewkowicz et Rafik Zenine diffusé sur France Culture le 6 octobre 2010. \\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#2fe93e4e-0ea3-4f66-b190-26fd67d8b15f>",
+              "type": "<http://campus-aar.fr/asa#58eb85bb-f976-4d26-89f1-d30fe27129bd>",
+              "label": "Sur les docks : Hong Kong",
+              "url": "http://www.dailymotion.com/video/xf2iou_sur-les-docks-hong-kong_news#from=embed",
+              "author": "France Culture",
+              "description": "Vidéo brute d'une minutte cinquante, consultable sur la Chaine de France Culture sur le site Daily Motion proposant un regard dans un appartement de « base-bed » dans le quartier de Sham Shui Po où s’entassent les uns sur les autres plus de 20 personnes.\\nRéalisé par Alain Lewkowicz et Rafik Zenine.\\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#f84335a5-de47-4ec8-83a5-67c83d2ab215>",
+              "type": "<http://campus-aar.fr/asa#3798135f-a1c3-41ed-a8bd-b97997d91671>",
+              "label": "La Chine vue du bord (3/4) : \"Génération post-80 à Hong-Kong : Pékin n’a qu’à bien se tenir !\" ",
+              "url": "http://www.franceculture.com/emission-sur-les-docks-la-chine-vue-du-bord-34-generation-post-80-a-hong-kong-pekin-n%E2%80%99a-qu%E2%80%99a-bien-se",
+              "author": "France Culture",
+              "description": "Un documentaire sonore  d'Alain Lewkowicz et Rafik Zenine diffusé sur France Culture le 7 octobre 2010. "
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#4ab9ef1d-4f70-4d7b-81a9-3d552b76af2d>",
+              "type": "<http://campus-aar.fr/asa#20e59958-9579-4bae-a408-14d7c9cde9c0>",
+              "label": "Chroniques Hongkongaises",
+              "author": "Gérard Henry",
+              "description": "Editions Zoé,  2008"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#a6a4af58-7aa4-4e72-bce4-801c230eacb2>",
+              "type": "<http://campus-aar.fr/asa#509364c2-4d2d-4c72-9307-1545602d95bc>",
+              "label": "Quelques images de Hong-Kong",
+              "url": "http://www.franceculture.com/2010-09-29-quelques-images-de-hong-kong.html",
+              "author": "France Culture",
+              "description": "Diaporama consultable sur le site de France Culture\\nAlain Lewkowicz et Rafik Zenine se sont rendus à Hong-Kong en mars 2010 pour enregistrer trois documentaires. Alain Lewkowicz a ramené pour \"Sur les docks\" ces quelques photographies.\\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#deb129ce-08c6-4ce5-b887-db1fa9fd348b>",
+              "type": "<http://campus-aar.fr/asa#509364c2-4d2d-4c72-9307-1545602d95bc>",
+              "label": "Hong Kong : la démocratie en danger",
+              "url": "http://www.franceculture.com/2010-05-05-hong-kong-la-d%C3%A9mocratie-en-danger.html",
+              "author": "France Culture",
+              "description": "Diaporama consultable sur internet.\\nCes quelques photographies ont été prises par Alain Lewkowicz lors de son séjour à Hong Kong en avril 2010.\\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#70988c3d-08c3-4824-b785-af296b10089d>",
+              "type": "<http://campus-aar.fr/asa#509364c2-4d2d-4c72-9307-1545602d95bc>",
+              "label": "Les syndicats à Hong Kong",
+              "url": "http://www.franceculture.com/2010-05-05-les-syndicats-%C3%A0-hong-kong.html",
+              "author": "France Culture",
+              "description": "Diaporama consultable sur Internet.\\nCes quelques photographies ont été prises par Alain Lewkowicz lors de son séjour à Hong Kong, en avril 2010.\\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#ea4434de-de3c-4f42-92b3-64700b9354ad>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "The sounds of Hong Kong",
+              "url": "http://www.cnngo.com/hong-kong/play/hong-kongs-soundscape-018484",
+              "author": "Christopher DeWolf   -  CNN GO",
+              "description": "Un document bien détaillé sur le paysage sonore de Hong Kong. De nombreux extraits en ligne en écoute libre. "
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#07e16ee1-694b-44fd-948b-61206bc457b5>",
+              "type": "<http://campus-aar.fr/asa#345f77e6-47ad-4196-9fe0-1b529f40cc1b>",
+              "label": "Hong Kong Tourism Board ",
+              "url": "http://www.discoverhongkong.com/",
+              "author": "Hong Kong Tourism Board ",
+              "description": "Site de l'office de tourisme de Hong Kong, décliné dans de nombreuses langues, pour avoir accès à l'ensemble des acticités offertes à Hong Kong. "
+            }
+          ],
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#4273cc21-4385-4325-850d-668f1465d28e>",
+              "type": "<http://campus-aar.fr/asa#4632c8d8-9d5d-4d2d-b782-10bf8a00c58f>",
+              "label": "\"Sujet \\\"Villes, villages et autres localités du Monde\\\"\"@fr",
+              "<http://campus-aar.fr/asa#84ec7186-eb0d-42ec-ad50-d71b3573b556-prop>": {
+                "id": "<http://campus-aar.fr/asa#b60e4a23-8752-4a95-8534-adc33b33d686>",
+                "type": "<http://campus-aar.fr/asa#3272a87b-a689-4a78-8d1b-9aae6894131e>",
+                "<http://campus-aar.fr/asa#e8ac790d-df42-4ada-bf78-2bacb2898a8c-prop>": {
+                  "id": "<http://campus-aar.fr/asa#b60e4a23-8752-4a95-8534-adc33b33d686_p0>",
+                  "type": "<http://campus-aar.fr/asa#ad23b587-1950-491c-adfa-8ad33f01eb1c>",
+                  "<http://campus-aar.fr/asa#23875d7c-ec9c-4526-9757-e721eaeb0a7b-prop>": "\"2007\"@fr"
+                }
+              },
+              "<http://campus-aar.fr/asa#e8d23fda-0e74-4b95-aaf6-b6bcb7c67d72-prop>": {
+                "id": "<http://campus-aar.fr/asa#aa58076a-9b16-4734-b20d-b333366fd6d2>",
+                "<http://campus-aar.fr/asa#297a58df-ea24-449a-b62a-626eab2b266c-prop>": "\"Le Tibet est une région de plateaux située en République populaire de Chine, au nord-est de l’Himalaya. Depuis 1965, elle est l’une des cinq régions autonomes que compte le pays. \\n\"@fr"
+              },
+              "where": "<http://campus-aar.fr/asa#d894a797-317d-4a91-bdaa-c9883a3596c2>",
+              "<http://campus-aar.fr/asa#b171e5a9-8abf-40d0-b68c-bca12e9d2c61-prop>": {
+                "id": "<http://campus-aar.fr/asa#ed0de0d8-60fa-4cf0-bc75-62bd94f59908>",
+                "type": "<http://campus-aar.fr/asa#bcdff622-72d8-40ba-a11e-0efdd3adf858>",
+                "<http://campus-aar.fr/asa#6c43d0dc-9806-44e5-acd4-dd9230e9f2e5-prop>": {
+                  "id": "<http://campus-aar.fr/asa#ed0de0d8-60fa-4cf0-bc75-62bd94f59908_p0>",
+                  "type": "<http://campus-aar.fr/asa#fda9b464-0dc4-40dd-941c-908f61546c7a>",
+                  "<http://campus-aar.fr/asa#ad36d4f1-12ae-45fb-a0f1-bf995fcf29c1-prop>": "\"hong-kong ; chine ; île ; colonie ; quotidien ; vie ; témoignage ; \"@fr",
+                  "<http://campus-aar.fr/asa#5c694344-c2e1-4efc-ba95-3746908229f1-prop>": "\"http://fr.wikipedia.org/wiki/Hong_Kong\"@fr"
+                }
+              },
+              "what": [
+                "<http://campus-aar.fr/asa#9f964d69-e2ca-4632-8903-f9dc43696759>",
+                "<http://campus-aar.fr/asa#31c96adf-8f8e-4b7f-b54a-08798c140931>"
+              ],
+              "semantic_relation": [
+                "<http://campus-aar.fr/asa#c093ef30-ff81-4101-aa6e-d2f8490691c0>",
+                "<http://campus-aar.fr/asa#d1019640-3cb3-409c-8fa1-9df5a8acc69c>",
+                "<http://campus-aar.fr/asa#5ed87fdb-16c6-455c-abec-172abcdb5ad3>",
+                "<http://campus-aar.fr/asa#8c6f5406-1d5d-44c9-81f8-b89a08f9ab6f>",
+                "<http://campus-aar.fr/asa#83efdbed-840d-4deb-8477-3f387ef513a0>",
+                "<http://campus-aar.fr/asa#400c3879-f202-4f77-991d-ae8bfa554a69>",
+                "<http://campus-aar.fr/asa#0d478c53-7f5a-4d2d-883d-c81169efeb4a>",
+                "<http://campus-aar.fr/asa#1e4f7456-79fb-4d73-86e3-10866e820014>",
+                "<http://campus-aar.fr/asa#8a8a4f12-489d-42a0-8ee0-1be8c6580dfa>",
+                "<http://campus-aar.fr/asa#9fa55efc-8c9e-464f-a70b-27d50aee209b>"
+              ]
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#eef02b0e-2ee1-45fb-b292-60e86aa24e80>",
+              "type": "<http://campus-aar.fr/asa#7c454e40-c7e7-478f-94d7-7666c0cf3740>",
+              "description": "Le film ne comporte pas de parole, seules les images suggèrent. A ce titre, on peut parler de description générale en tant qu'impression rendue par le montage des images."
+            }
+          ],
+          "context": [
+            "<http://campus-aar.fr/asa#72e87c12-90fb-4250-b19a-bc545c9c231b>",
+            "<http://campus-aar.fr/asa#9a002356-abfa-4b3f-b159-cd232ce1f85f>",
+            "<http://campus-aar.fr/asa#6bc5553f-aa16-42c4-be8f-58afc3ac9a58>"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#77b26850-8613-4720-baf0-dcc9d9542617>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Paysage urbain \"@fr",
+          "beginTime": "T00:00:00:0F14112000",
+          "duration": "PT00H04M22S13641600N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#14e311a6-3dd7-41fb-a1da-b0f7ece9850b>",
+              "type": "<http://campus-aar.fr/asa#345f77e6-47ad-4196-9fe0-1b529f40cc1b>",
+              "label": "Run.com",
+              "url": "http://www.run.com/country.asp?loc=HK",
+              "author": "www.run.com & Hillclimb Media",
+              "description": "Hong Kong Running Routes. Plan routier de Hong King en ligne.  "
+            }
+          ],
+          "translation": "<http://campus-aar.fr/asa#031d9245-43d0-4d7b-9a6c-e112ad778139>"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#974354f2-e28f-45ef-9370-77a545b954e0>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Ballade dans les rues de Hong Kong\"@fr",
+          "beginTime": "T00:04:22:13641600F14112000",
+          "duration": "PT00H02M36S11289600N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#ea93a70a-ef27-40aa-b600-110979051b26>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Insecula - Promenade à Kowloon",
+              "url": "http://www.insecula.com/salle/MS04881.html",
+              "author": "Société Insecula",
+              "description": "Guide de visite en ligne."
+            }
+          ],
+          "translation": "<http://campus-aar.fr/asa#5c658c7c-7488-4108-823e-c0edffe017a4>"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#33727250-afe9-4dae-ba8f-65b3d1ac5e25>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Enseignes, publicités et inscriptions à Hong Kong\"@fr",
+          "beginTime": "T00:06:59:10819200F14112000",
+          "duration": "PT00H02M58S470400N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#567a54d3-0a82-4a4f-986e-777c7684245a>",
+              "type": "<http://campus-aar.fr/asa#f1a42c53-39a0-430b-bcfc-52adccd39fa5>",
+              "label": "Ruavista - les signes de la ville",
+              "url": "http://www.ruavista.com/ideo.htm"
+            }
+          ],
+          "translation": "<http://campus-aar.fr/asa#49a20ed0-68e0-44a1-aa7e-dff3cc537bdf>"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#a93083e8-4944-4b36-b7db-dddb628b0a08>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Mongkok, la nuit\"@fr",
+          "beginTime": "T00:09:57:11289600F14112000",
+          "duration": "PT00H02M43S4704000N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#76c09282-f1c0-4d6d-a6bd-66c01b3a1370>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Mong Kok",
+              "url": "http://en.wikipedia.org/wiki/Mong_Kok",
+              "author": "Wikipedia",
+              "description": "Une bonne description de ce quartier très caractéristique de Hong Kong."
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#073abdd3-69dc-486e-926a-3849a963938c>",
+              "type": "<http://campus-aar.fr/asa#15dbec84-1501-4274-9264-506e78a10500>",
+              "label": "One Night in Mongkok",
+              "author": "Yee Tung-Shing",
+              "description": "One Nite in Mongkok,  (旺角黑夜 ) (旺角黑夜),  film de fiction entièrement tourné dans les rues de Mongkok (Hong Kong) en 2004 par Derek Yee Tung-Shing. \\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#86bac8f5-19c8-4800-ab70-1fe73adc2890>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Mongkok",
+              "url": "http://www.12hk.com/area/Mongkok/Mongkok.shtml",
+              "author": "The Hong Kong Unofficial Guide",
+              "description": "On voit bien l'importance du paysage textuel sur la page web de ce site."
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#58362fc8-9103-4f95-90e6-6497b6b40bab>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Tai Chi Chuan à Lingnan University\"@fr",
+          "beginTime": "T00:12:41:1881600F14112000",
+          "duration": "PT00H01M54S4704000N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#c251bdba-2669-4045-81b7-00b8c25a9e6a>",
+              "type": "<http://campus-aar.fr/asa#345f77e6-47ad-4196-9fe0-1b529f40cc1b>",
+              "label": "Lingnan University",
+              "url": "http://www.ln.edu.hk/",
+              "author": "Lingnan University"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#22e223b5-bfb1-468e-ba45-4ae2bba8ede2>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Tai chi chuan",
+              "url": "http://en.wikipedia.org/wiki/Tai_chi_chuan",
+              "author": "Wikipedia"
+            }
+          ],
+          "translation": "<http://campus-aar.fr/asa#ee656760-26c3-468a-b351-7a35fd6ae5ff>"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#d7845f52-a442-4456-b550-6ce0c1052768>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Lieux de culte à Hong Kong\"@fr",
+          "beginTime": "T00:14:35:6585600F14112000",
+          "duration": "PT00H06M35S3763200N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "translation": "<http://campus-aar.fr/asa#83a3a47b-fa5e-40e0-9ac0-339b85d32107>"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#0f2f91eb-5ee8-43af-b7d5-2e9d624d7da1>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Hugo Man-To Leung\"@fr",
+          "beginTime": "T00:21:10:10348800F14112000",
+          "duration": "PT00H23M11S8467200N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "description": "Visite du  Tai Wing Wah Restaurant    大榮華酒樓 \\nAddress: 2/F., No. 2-6 On Ning Road, Yuen Long  新界元朗安寧路2 - 6號冠煌樓1樓\\nTel.: 2476 9888\\n\\n",
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#043b5110-c99b-4aa5-baf7-b207e575707d>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Eating out with celebrity chef Hugo 'ToTo' Leung",
+              "url": "http://www.cnngo.com/hong-kong/celebrity-chef-hugo-leungs-favorite-restaurants-hong-kong-718507",
+              "author": "CNN GO - Asia Beta -"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#1c7e28b7-4cb6-4e25-9303-00c148fe0228>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Dine with the Gourmet Celebrity Hugo Leong",
+              "url": "http://www.foodpoi.com/2010/01/dine-with-gourmet-celebrity-hugo-leong/",
+              "author": "Food Point of Interest"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#390ab472-0ae1-42a5-bcf2-182b06ff97cb>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Gourmet Tour Series, Part 1 - Tai Wing Wah Restaurant (Hong Kong) ",
+              "url": "http://www.lingzie.com/2008/06/02/gourmet-tour-series-part-1-tai-wing-wah-restaurant-hong-kong/",
+              "author": "Lingzie's Tummy Treats"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#c3145a94-a876-411c-a6fc-373dc5863c57>",
+              "type": "<http://campus-aar.fr/asa#d6d6f0c9-b575-4abd-9a96-de48227765e6>",
+              "label": "Webshots/American Greetings/ Tai Wing Wah Restaurant",
+              "url": "http://good-times.webshots.com/album/561415156NPUNrk",
+              "author": "Gourmet Yan7",
+              "description": "Dinner experience at Tai Wing Wah Restaurant, Yuen Long branch\\n"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#1919150b-d7b5-4d34-a590-09143c092338>",
+              "type": "<http://campus-aar.fr/asa#7986f884-bb16-4322-869b-70a6d3f7c9f8>",
+              "label": "Preparing Tai Wing Wah Pork Lard Rice",
+              "url": "http://www.youtube.com/watch?v=JRwRialP2U8&feature=player_embedded",
+              "author": "YouTube",
+              "description": "Vidéo en ligne sur YouTube. Préparation du riz. \\nThe staff of Tai Wing Wah (大榮華酒樓) in Yuen Long, Hong Kong preparing their unique pork lard rice. A scoop of premium soya sauce and half scoop of pork lard. Mix it on the rice cooked in clay bowl. Yummy."
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#f4f05382-4940-4a2d-b1f0-df56c5baa50e>",
+              "type": "<http://campus-aar.fr/asa#345f77e6-47ad-4196-9fe0-1b529f40cc1b>",
+              "label": "Wingwah",
+              "url": "http://www.wingwah.com/pp_big/opening/opening.html",
+              "author": "Waingwah corporation ",
+              "description": "Site présentant les produits distribués par la compagnie Wingwah. "
+            }
+          ],
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#3a117700-cf04-4646-a29d-c7339fd9f15d>",
+              "type": "<http://campus-aar.fr/asa#1d19dc4a-69f7-4453-ae52-2df2ef3d861b>",
+              "label": "\"Sujet \\\"Cuisines du monde\\\"\"@fr",
+              "<http://campus-aar.fr/asa#4e44d6f7-8a83-47f3-b0d6-1a64a776b72b-prop>": {
+                "id": "<http://campus-aar.fr/asa#e0e26784-792d-4cd0-b737-d3730fde5cc3>",
+                "type": "<http://campus-aar.fr/asa#57ba7be3-d968-43ce-9cb4-060a6f828a75>",
+                "<http://campus-aar.fr/asa#f0002244-c644-4811-b4bd-18f9916e2dc8-prop>": {
+                  "id": "<http://campus-aar.fr/asa#e0e26784-792d-4cd0-b737-d3730fde5cc3_p0>",
+                  "type": "<http://campus-aar.fr/asa#96b3c9fd-2841-478d-a732-75fec6e86738>",
+                  "<http://campus-aar.fr/asa#d15b036f-8b8c-4307-8d12-66bc8360ce5f-prop>": "\"Hong-Kong\"@fr"
+                }
+              },
+              "<http://campus-aar.fr/asa#e8d23fda-0e74-4b95-aaf6-b6bcb7c67d72-prop>": {
+                "id": "<http://campus-aar.fr/asa#aa58076a-9b16-4734-b20d-b333366fd6d2>",
+                "<http://campus-aar.fr/asa#297a58df-ea24-449a-b62a-626eab2b266c-prop>": "\"Le Tibet est une région de plateaux située en République populaire de Chine, au nord-est de l’Himalaya. Depuis 1965, elle est l’une des cinq régions autonomes que compte le pays. \\n\"@fr"
+              },
+              "<http://campus-aar.fr/asa#08a237a9-77d2-44e3-9404-6db83d14b120-prop>": {
+                "id": "<http://campus-aar.fr/asa#4eb55240-5788-4799-ac24-fd1e1a52ec17>",
+                "type": "<http://campus-aar.fr/asa#bcdff622-72d8-40ba-a11e-0efdd3adf858>",
+                "<http://campus-aar.fr/asa#6c43d0dc-9806-44e5-acd4-dd9230e9f2e5-prop>": {
+                  "id": "<http://campus-aar.fr/asa#4eb55240-5788-4799-ac24-fd1e1a52ec17_p0>",
+                  "type": "<http://campus-aar.fr/asa#fda9b464-0dc4-40dd-941c-908f61546c7a>",
+                  "<http://campus-aar.fr/asa#ad36d4f1-12ae-45fb-a0f1-bf995fcf29c1-prop>": "\"cuisine : gastronomie ; hong-kong ; chine ; \"@fr",
+                  "<http://campus-aar.fr/asa#5c694344-c2e1-4efc-ba95-3746908229f1-prop>": "\"http://en.wikipedia.org/wiki/Hong_Kong_cuisine\"@fr"
+                }
+              },
+              "<http://campus-aar.fr/asa#a4ed25e8-d12f-4578-bdc0-113943915eb4-prop>": {
+                "id": "<http://campus-aar.fr/asa#f010f48b-fe5c-41a9-bc41-462918b8b4ac>",
+                "type": "<http://campus-aar.fr/asa#ad9d8687-432d-4575-9032-092c98252e41>",
+                "<http://campus-aar.fr/asa#297a58df-ea24-449a-b62a-626eab2b266c-prop>": "\"La cuisine Hongkongaise est principalement influencée par la cuisine cantonaise, mais également pas les cuisines des populations locales, comme les hakkas, ainsi que par la cuisine anglaise. Ce n’est d’ailleurs, qu’à partir de la colonisation de Hong-Kong par les anglais, qu’il a été fait mention de « cuisine Hongkongaise ». \\n\"@fr",
+                "unknown_relation": "<http://campus-aar.fr/asa#20c7edc5-23ca-4800-84c2-d21c7962d6d7>"
+              },
+              "semantic_relation": [
+                "<http://campus-aar.fr/asa#26e993d1-e3b0-4776-9205-938440da2bde>",
+                "<http://campus-aar.fr/asa#0d478c53-7f5a-4d2d-883d-c81169efeb4a>",
+                "<http://campus-aar.fr/asa#c093ef30-ff81-4101-aa6e-d2f8490691c0>",
+                "<http://campus-aar.fr/asa#c9936370-7e0b-4f8a-99de-533492d2d998>",
+                "<http://campus-aar.fr/asa#01a19f1e-5d01-44de-b3af-db602b35f0ac>",
+                "<http://campus-aar.fr/asa#5e928eba-0272-4ac0-ad65-2d767d1ccf5b>"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#c688b400-9e41-449e-b948-9e01e7878df0>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Un marché ouvert à Hong Kong\"@fr",
+          "beginTime": "T00:44:22:4704000F14112000",
+          "duration": "PT00H02M30S3763200N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#1fdc4fdc-1dd5-4155-b682-afe7ccebfe4f>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Kin's Kitchen de Lau Kin Wai\"@fr",
+          "beginTime": "T00:46:52:8467200F14112000",
+          "duration": "PT00H08M52S6585600N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "resource": [
+            {
+              "id": "<http://campus-aar.fr/asa#969e7968-6983-40bd-8a61-c35c4691013a>",
+              "type": "<http://campus-aar.fr/asa#0494cb68-3a9e-4b8b-88de-582240958599>",
+              "label": "Lau Kin-Wai",
+              "url": "http://www.thomascrampton.com/china/lau-kin-wai-decline-of-chinese-cuisine-since-the-1950s/",
+              "author": "Thomas Crampton",
+              "description": "Vidéo d'une "
+            }
+          ],
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#09c09ef7-6046-4b26-a0b0-6db64fa7543f>",
+              "type": "<http://campus-aar.fr/asa#2c5efbd3-d57e-47ef-95c7-b7c614e948d5>",
+              "label": "\"Sujet \\\"Aliments du monde\\\"\"@fr",
+              "<http://campus-aar.fr/asa#e8d23fda-0e74-4b95-aaf6-b6bcb7c67d72-prop>": {
+                "id": "<http://campus-aar.fr/asa#aa58076a-9b16-4734-b20d-b333366fd6d2>",
+                "<http://campus-aar.fr/asa#297a58df-ea24-449a-b62a-626eab2b266c-prop>": "\"Le Tibet est une région de plateaux située en République populaire de Chine, au nord-est de l’Himalaya. Depuis 1965, elle est l’une des cinq régions autonomes que compte le pays. \\n\"@fr"
+              },
+              "<http://campus-aar.fr/asa#8b71d965-9694-4003-9e64-4fc361ffba0c-prop>": {
+                "id": "<http://campus-aar.fr/asa#1a650689-12ca-4a9d-90c9-f162294cc52c>",
+                "type": "<http://campus-aar.fr/asa#bcdff622-72d8-40ba-a11e-0efdd3adf858>",
+                "<http://campus-aar.fr/asa#6c43d0dc-9806-44e5-acd4-dd9230e9f2e5-prop>": {
+                  "id": "<http://campus-aar.fr/asa#1a650689-12ca-4a9d-90c9-f162294cc52c_p0>",
+                  "type": "<http://campus-aar.fr/asa#fda9b464-0dc4-40dd-941c-908f61546c7a>",
+                  "<http://campus-aar.fr/asa#ad36d4f1-12ae-45fb-a0f1-bf995fcf29c1-prop>": "\"piement ; epice ; cuisine ; gastronimie ; condiement ; sauce ; chine ; hong-kong\"@fr"
+                }
+              },
+              "<http://campus-aar.fr/asa#3b7e1448-0a75-44f7-923f-f70c4933c244-prop>": {
+                "id": "<http://campus-aar.fr/asa#e0156012-9f74-4d31-ad8c-c596d9594293>",
+                "type": "<http://campus-aar.fr/asa#ad9d8687-432d-4575-9032-092c98252e41>",
+                "unknown_relation": [
+                  "<http://campus-aar.fr/asa#89c357ae-321b-4c4d-b572-d8e3fd0ecb2d>",
+                  "<http://campus-aar.fr/asa#20c7edc5-23ca-4800-84c2-d21c7962d6d7>"
+                ]
+              },
+              "<http://campus-aar.fr/asa#5145cafd-0d23-4189-a26f-8c11943353df-prop>": {
+                "id": "<http://campus-aar.fr/asa#3fd73dcb-db8e-452d-82e6-49471af5e1be>",
+                "<http://campus-aar.fr/asa#297a58df-ea24-449a-b62a-626eab2b266c-prop>": "\"Le piment, très présent dans une grande partie de la gastronomie chinoise, aurait été importé en chine après la découvertes des amériques par les occidentaux. \"@fr"
+              },
+              "semantic_relation": [
+                "<http://campus-aar.fr/asa#dedf309f-933e-4401-9048-1331fd7b5c7a>",
+                "<http://campus-aar.fr/asa#a2db9f3b-df46-401a-91ff-4fb9811e03ae>",
+                "<http://campus-aar.fr/asa#275a7fb0-b15f-447a-b847-06be87b9c9d8>",
+                "<http://campus-aar.fr/asa#1dc6fcff-b676-449b-8204-27dc3eebc759>",
+                "<http://campus-aar.fr/asa#61f73197-3663-44a5-bd72-18b957ae0559>",
+                "<http://campus-aar.fr/asa#ed542530-cd85-4ece-8670-da882c5be9d5>",
+                "<http://campus-aar.fr/asa#5e928eba-0272-4ac0-ad65-2d767d1ccf5b>"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#5c43a9e2-7509-47d8-993b-2a253544ce9a>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Marché aux poissons\"@fr",
+          "beginTime": "T00:55:45:940800F14112000",
+          "duration": "PT00H08M06S10348800N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#4129ddf3-8ef9-4aab-b54a-926add0ea91f>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Poissons séchés et canards laqués à Hong Kong et Tai O\"@fr",
+          "beginTime": "T01:03:51:11289600F14112000",
+          "duration": "PT00H05M25S470400N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#3240dce4-90de-4206-bf6b-6a86091f6701>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Lan Fong Yuen - restaurant à thé très populaire\"@fr",
+          "beginTime": "T01:09:16:11760000F14112000",
+          "duration": "PT00H01M59S3292800N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ],
+          "description": "Lan Fong Yuen \\nLan Fong Yuen (蘭芳園)\\n2 Gage Street, Central (also a newer branch down the street)\\n中環結志街2號\\n2544 3895/ 2854 0731\\n\\nfamous tea restaurant in Hong Kong\\nhttp://gourmettraveller88.com/2009/09/22/lan-fong-yuen-hong-kong/"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#6dc9016c-1c0e-4e13-8190-5e633ea4f7b8>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Impressions dans un restaurant populaire \"@fr",
+          "beginTime": "T01:11:16:940800F14112000",
+          "duration": "PT00H03M53S7996800N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#2de1a320-3a55-4151-8e49-b0a181a433ec>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"L'eau et la mer - Hong Kong et Tai O\"@fr",
+          "beginTime": "T01:15:09:8937600F14112000",
+          "duration": "PT00H02M09S470400N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#24f5a24a-4130-4608-a40e-b329bad87623>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Maisons sur pilotis dans le village de Tai O\"@fr",
+          "beginTime": "T01:17:18:9408000F14112000",
+          "duration": "PT00H05M00S7526400N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#490622c8-eef8-4c2b-b4c5-979c9cde23ee>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Marché aux puces \"@fr",
+          "beginTime": "T01:22:19:2822400F14112000",
+          "duration": "PT00H02M49S12230400N14112000F",
+          "language": [
+            "en",
+            "fr"
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#8cbda667-67ac-444e-97ec-b16b984aa347>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Transports en commun \"@fr",
+          "beginTime": "T01:25:09:940800F14112000",
+          "duration": "PT00H00M49S0N14112000F",
+          "language": "fr"
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#ec65165d-306a-42ed-ae93-51b9ba37c2ab>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 2,
+          "label": "\"Scènes de vie, prises sur le vif \"@fr",
+          "beginTime": "T01:25:58:940800F14112000",
+          "duration": "PT00H07M35S13171200N14112000F",
+          "language": "fr"
+        }
+      ]
+    },
+    {
+      "id": "<http://campus-aar.fr/asa#2fa7557d-1a3e-4ad0-ab74-e70ab2c8e0c8_video>",
+      "type": "<http://www.ina.fr/core#TemporalLayer>",
+      "document": "<http://campus-aar.fr/asa#d2a41e97-4f57-4365-8149-fbbc51ea6d49>",
+      "segment": [
+        {
+          "id": "<http://campus-aar.fr/asa#77b26850-8613-4720-baf0-dcc9d9542617_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:00:00:0F14112000",
+          "duration": "PT00H04M22S13641600N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#23718afd-21e7-4420-badb-da9fa2b59dd9>",
+              "type": "<http://campus-aar.fr/asa#7abe29a2-21f3-4075-af24-4fc0670fde4e>",
+              "target": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#a88259e4-9eab-4e60-9d5a-b754f3900b2f>",
+              "type": "<http://campus-aar.fr/asa#053cdbf3-9829-424b-b270-ab189b57fb10>",
+              "target": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#61421288-d423-42f9-bacb-f00d4acf82d6>",
+              "type": "<http://campus-aar.fr/asa#e3093487-1bd7-47cd-9196-a6222a604c47>",
+              "target": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#b5115ca1-581c-48dd-be50-a3bcc2821f04>",
+              "type": "<http://campus-aar.fr/asa#50d78dab-d461-4b74-b990-1d003688997b>",
+              "target": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#c85352d1-ea5a-4205-a23f-32d2c1c11da9>",
+              "type": "<http://campus-aar.fr/asa#8f020eed-71ab-4a45-b74a-990e2712b018>",
+              "target": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#2dcfe996-b781-420f-8ef8-76b7a94f0b2f>",
+              "type": "<http://campus-aar.fr/asa#2dbc2da9-b056-4d24-9b68-5b04112b68d1>",
+              "target": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#f84a3409-dfb6-4218-aaab-941e632d9532>",
+              "description": "Une traversée en minibus à travers les différentes îles du territoire. \\nCertains plans d'ensemble en panoramique nous font découvrir l'intensification du trafic routier, d'autres plans plus généraux, souvent en travelling, nous font appréhender les mouvements et les bruits de la rues. Quelques scènes sont en contre-plongées magnifiant le côté gigantesque des bâtiments. ",
+              "type": "<http://campus-aar.fr/asa#14b83fec-54ee-40c7-a144-cb35d41aca8c>",
+              "label": "Routes et rues"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#974354f2-e28f-45ef-9370-77a545b954e0_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:04:22:13641600F14112000",
+          "duration": "PT00H02M36S11289600N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#597d5309-5e69-45cb-b45e-a430f9395f50>",
+              "type": "<http://campus-aar.fr/asa#053cdbf3-9829-424b-b270-ab189b57fb10>",
+              "target": "<http://campus-aar.fr/asa#7a157566-14cf-439b-b1c9-99e8e50a31c4>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#85e59e2f-8d17-4c8c-9f04-63f089ac309b>",
+              "type": "<http://campus-aar.fr/asa#e3093487-1bd7-47cd-9196-a6222a604c47>",
+              "target": "<http://campus-aar.fr/asa#7a157566-14cf-439b-b1c9-99e8e50a31c4>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#82eb70f3-7097-465f-af15-dfe3974d7f27>",
+              "type": "<http://campus-aar.fr/asa#50d78dab-d461-4b74-b990-1d003688997b>",
+              "target": "<http://campus-aar.fr/asa#7a157566-14cf-439b-b1c9-99e8e50a31c4>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#22afb9de-7c67-422e-932a-67e11e20ecf4>",
+              "type": "<http://campus-aar.fr/asa#8d71faa0-9a07-455e-8e61-3b45ae0d4dc3>",
+              "target": "<http://campus-aar.fr/asa#7a157566-14cf-439b-b1c9-99e8e50a31c4>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#7a157566-14cf-439b-b1c9-99e8e50a31c4>",
+              "description": "Brèves ballades au fil des rues. ",
+              "type": "<http://campus-aar.fr/asa#14b83fec-54ee-40c7-a144-cb35d41aca8c>",
+              "label": "Rues dans la péninsule de Kowloon"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#58362fc8-9103-4f95-90e6-6497b6b40bab_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:12:41:1881600F14112000",
+          "duration": "PT00H01M54S4704000N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#0d396aa3-2d5c-4981-afa0-28c3b01e88ba>",
+              "type": "<http://campus-aar.fr/asa#7abe29a2-21f3-4075-af24-4fc0670fde4e>",
+              "target": "<http://campus-aar.fr/asa#6bce45dc-2d16-452c-a38c-bd84f1fa25c6>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#4a418fc9-07a9-4447-ac86-d1debd146d44>",
+              "type": "<http://campus-aar.fr/asa#8d71faa0-9a07-455e-8e61-3b45ae0d4dc3>",
+              "target": "<http://campus-aar.fr/asa#6bce45dc-2d16-452c-a38c-bd84f1fa25c6>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#5969d7af-254a-4116-b257-dc927cd8b6e1>",
+              "type": "<http://campus-aar.fr/asa#e3093487-1bd7-47cd-9196-a6222a604c47>",
+              "target": "<http://campus-aar.fr/asa#6bce45dc-2d16-452c-a38c-bd84f1fa25c6>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#03230df9-25aa-4c66-a640-a02834d88f55>",
+              "type": "<http://campus-aar.fr/asa#ac33681e-5088-45da-966f-307d2014825d>",
+              "label": "Bâtiments de l'université de Lingnan, Hong Kong",
+              "target": "<http://campus-aar.fr/asa#6bce45dc-2d16-452c-a38c-bd84f1fa25c6>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#6bce45dc-2d16-452c-a38c-bd84f1fa25c6>",
+              "description": "Personne en train de suivre un cours de Tai chi chuan",
+              "type": "<http://campus-aar.fr/asa#08075ce0-feba-4246-baf5-1032a86db3a3>",
+              "label": "Gens"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#d7845f52-a442-4456-b550-6ce0c1052768_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:14:35:6585600F14112000",
+          "duration": "PT00H06M35S3763200N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#0d5008c1-1913-4d75-92af-0d500f4285f7>",
+              "type": "<http://campus-aar.fr/asa#7abe29a2-21f3-4075-af24-4fc0670fde4e>",
+              "target": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#5702d7fd-771d-4568-9727-32c961f714a4>",
+              "type": "<http://campus-aar.fr/asa#35ae0ef3-8075-4826-9b16-1ccbb61654d4>",
+              "target": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#f0f0a546-e25b-48d8-9a9f-1e64e4f76d3f>",
+              "type": "<http://campus-aar.fr/asa#8d71faa0-9a07-455e-8e61-3b45ae0d4dc3>",
+              "target": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#b819f13b-e7f0-4006-8597-4f2a34440c1f>",
+              "type": "<http://campus-aar.fr/asa#1db8bcc0-798c-4897-856d-de01e42c1efc>",
+              "target": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#997fecf0-edd6-45fe-9c9d-c4d90bffe97e>",
+              "type": "<http://campus-aar.fr/asa#e3093487-1bd7-47cd-9196-a6222a604c47>",
+              "target": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#4b776bbf-4271-4dd4-bedf-b2551397b952>",
+              "type": "<http://campus-aar.fr/asa#cf93fe37-67e1-4085-966c-fa31291ae0a5>",
+              "target": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#7c28bd15-e97b-4a22-8f07-bfacbc4fab40>",
+              "description": "Intérieurs et extérieurs de temples. Gros plan sur quelques détails : entrées, lumières, autels, encens. ",
+              "type": "<http://campus-aar.fr/asa#14b83fec-54ee-40c7-a144-cb35d41aca8c>",
+              "label": "Lieux de culte"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#0f2f91eb-5ee8-43af-b7d5-2e9d624d7da1_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:21:10:10348800F14112000",
+          "duration": "PT00H23M11S8467200N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#150a9af2-04f1-4c2c-9087-8a3498f9f862>",
+              "description": "Discussion entre Peter Stockinger et Hugo Leung Man-to.",
+              "type": "<http://campus-aar.fr/asa#08075ce0-feba-4246-baf5-1032a86db3a3>",
+              "label": "Interviewer et interviewé"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#a6dde085-f062-4496-b049-b6f56f6d931b>",
+              "type": "<http://campus-aar.fr/asa#50d78dab-d461-4b74-b990-1d003688997b>",
+              "target": "<http://campus-aar.fr/asa#de4c0269-86a6-467c-b633-c1f3294b2d46>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#de4c0269-86a6-467c-b633-c1f3294b2d46>",
+              "description": "Vue générale de la salle du restaurant de Mr Hugo Leung Man-to.",
+              "type": "<http://campus-aar.fr/asa#c5815714-0ece-4c96-86f4-16acc1434a83>",
+              "label": "Salle de restaurant"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#30bf1d1e-bfec-4fcd-b63f-f823877fb518>",
+              "type": "<http://campus-aar.fr/asa#50d78dab-d461-4b74-b990-1d003688997b>",
+              "target": "<http://campus-aar.fr/asa#b7bd1f5f-8a5d-43c8-b144-6f976a099257>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#b712f1ec-6b3d-42df-9d0e-9bed4244ae12>",
+              "type": "<http://campus-aar.fr/asa#7abe29a2-21f3-4075-af24-4fc0670fde4e>",
+              "target": "<http://campus-aar.fr/asa#b7bd1f5f-8a5d-43c8-b144-6f976a099257>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#b7bd1f5f-8a5d-43c8-b144-6f976a099257>",
+              "description": "Vue générale de la cuisine du restaurant de Mr Hugo Leung Man-to",
+              "type": "<http://campus-aar.fr/asa#14b83fec-54ee-40c7-a144-cb35d41aca8c>",
+              "label": "Cuisine"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#c688b400-9e41-449e-b948-9e01e7878df0_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:44:22:4704000F14112000",
+          "duration": "PT00H02M30S3763200N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#cfc31026-ce49-409d-b609-b87cd9537175>",
+              "type": "<http://campus-aar.fr/asa#053cdbf3-9829-424b-b270-ab189b57fb10>",
+              "target": "<http://campus-aar.fr/asa#444fbcec-d26c-4148-8b51-38b13d772e7b>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#444fbcec-d26c-4148-8b51-38b13d772e7b>",
+              "description": "Prises de vue réalisées lors del a visite d'un marché alimentaire ouvert à Hong Kong.",
+              "type": "<http://campus-aar.fr/asa#c5815714-0ece-4c96-86f4-16acc1434a83>",
+              "label": "Marché alimentaire ouvert"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#1fdc4fdc-1dd5-4155-b682-afe7ccebfe4f_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:46:52:8467200F14112000",
+          "duration": "PT00H08M52S6585600N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#bef6a14d-9cb5-4720-8142-1d685bfba93a>",
+              "type": "<http://campus-aar.fr/asa#053cdbf3-9829-424b-b270-ab189b57fb10>",
+              "target": "<http://campus-aar.fr/asa#bdfc1449-ef5e-4b3b-af59-24c895e9cc80>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#5d1ec19d-19a4-4fa9-bda9-e1f32f8ecb38>",
+              "type": "<http://campus-aar.fr/asa#8d71faa0-9a07-455e-8e61-3b45ae0d4dc3>",
+              "target": "<http://campus-aar.fr/asa#bdfc1449-ef5e-4b3b-af59-24c895e9cc80>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#725dc967-3181-4300-9221-c4352d0fc636>",
+              "type": "<http://campus-aar.fr/asa#cf93fe37-67e1-4085-966c-fa31291ae0a5>",
+              "target": "<http://campus-aar.fr/asa#bdfc1449-ef5e-4b3b-af59-24c895e9cc80>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#65e0bea1-9f4a-4eca-8af6-96506d54a4e8>",
+              "type": "<http://campus-aar.fr/asa#50d78dab-d461-4b74-b990-1d003688997b>",
+              "target": "<http://campus-aar.fr/asa#bdfc1449-ef5e-4b3b-af59-24c895e9cc80>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#bdfc1449-ef5e-4b3b-af59-24c895e9cc80>",
+              "description": "Visite de la cuisine d'un restaurant familiale, et présentation de quelques condiements. ",
+              "type": "<http://campus-aar.fr/asa#14b83fec-54ee-40c7-a144-cb35d41aca8c>",
+              "label": "Cuisine d'un restaurant"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#3240dce4-90de-4206-bf6b-6a86091f6701_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T01:09:16:11760000F14112000",
+          "duration": "PT00H01M59S3292800N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#0e04c57a-3a0e-4b24-885e-b56750977d9c>",
+              "type": "<http://campus-aar.fr/asa#50d78dab-d461-4b74-b990-1d003688997b>",
+              "target": "<http://campus-aar.fr/asa#fae779ce-527b-4d32-ba95-a9ce67e40dbf>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#a8404ef6-7b78-419d-bf1e-91800161ff36>",
+              "type": "<http://campus-aar.fr/asa#7abe29a2-21f3-4075-af24-4fc0670fde4e>",
+              "target": "<http://campus-aar.fr/asa#fae779ce-527b-4d32-ba95-a9ce67e40dbf>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#fae779ce-527b-4d32-ba95-a9ce67e40dbf>",
+              "description": "Préparation du thé. ",
+              "type": "<http://campus-aar.fr/asa#2e386a3c-ba55-4f50-9b52-0dcaa1f30ed1>",
+              "label": "Thé traditionnel"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#2de1a320-3a55-4151-8e49-b0a181a433ec_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T01:15:09:8937600F14112000",
+          "duration": "PT00H02M09S470400N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#8cb1e266-61dd-489d-9fac-5abe22a7d316>",
+              "description": "Vue de la mer de Chine et de l'eau depuis un port. ",
+              "type": "<http://campus-aar.fr/asa#14b83fec-54ee-40c7-a144-cb35d41aca8c>",
+              "label": "Mer de Chine"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#2fa7557d-1a3e-4ad0-ab74-e70ab2c8e0c8_0_video>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 0,
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#2a529d5a-973d-49d2-8bc2-7b5eb1d148b2>",
+              "description": "Scènes de la vie quotidienne à Hong-Kong.",
+              "type": "<http://campus-aar.fr/asa#b122fde2-9b74-4b66-be2c-1e6dbb6d6993>",
+              "label": "Hong Kong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "<http://campus-aar.fr/asa#2fa7557d-1a3e-4ad0-ab74-e70ab2c8e0c8_audio>",
+      "type": "<http://www.ina.fr/core#TemporalLayer>",
+      "document": "<http://campus-aar.fr/asa#d2a41e97-4f57-4365-8149-fbbc51ea6d49>",
+      "segment": [
+        {
+          "id": "<http://campus-aar.fr/asa#77b26850-8613-4720-baf0-dcc9d9542617_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:00:00:0F14112000",
+          "duration": "PT00H04M22S13641600N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#26f3a07a-9bb9-4724-b659-8450eb6f9082>",
+              "type": "<http://campus-aar.fr/asa#fd6d1e4e-b488-409a-a0cd-1e6b7fb7cb37>",
+              "target": "<http://campus-aar.fr/asa#23ab9184-2bf5-4569-8392-ba20d6a84218>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#ec4a62cb-bf2e-46da-a7b3-da05a9c47482>",
+              "type": "<http://campus-aar.fr/asa#ad5537f7-c606-4780-9493-c866a6836008>",
+              "target": "<http://campus-aar.fr/asa#23ab9184-2bf5-4569-8392-ba20d6a84218>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#5d4b4c2c-edb0-4ade-892e-522390283d92>",
+              "type": "<http://campus-aar.fr/asa#e081d333-805f-44c9-96d7-ec9853cc9a31>",
+              "target": "<http://campus-aar.fr/asa#23ab9184-2bf5-4569-8392-ba20d6a84218>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#aadd7fa6-46b7-416e-9ad1-26e702ef0275>",
+              "type": "<http://campus-aar.fr/asa#a81d0657-df7e-4f29-9d7f-93b7f2eeffad>",
+              "target": "<http://campus-aar.fr/asa#23ab9184-2bf5-4569-8392-ba20d6a84218>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#23ab9184-2bf5-4569-8392-ba20d6a84218>",
+              "description": "Bruits des voitures, du trafic routier, des klaxons, des vélos, appréhension de quelques paroles floues. ",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Paysage sonore de la vie quotidienne"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#974354f2-e28f-45ef-9370-77a545b954e0_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:04:22:13641600F14112000",
+          "duration": "PT00H02M36S11289600N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#fd615e52-d694-4ef8-815a-919eec88baf6>",
+              "type": "<http://campus-aar.fr/asa#fd6d1e4e-b488-409a-a0cd-1e6b7fb7cb37>",
+              "target": "<http://campus-aar.fr/asa#d18eb02b-69bb-4c58-866f-4d0c7a06fe6b>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#d78aeb9d-d91f-49bf-99ec-c8b2d356e620>",
+              "type": "<http://campus-aar.fr/asa#db2e2c6b-e446-45ed-b3f7-354e39e11c60>",
+              "target": "<http://campus-aar.fr/asa#d18eb02b-69bb-4c58-866f-4d0c7a06fe6b>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#ca2ade47-727c-47e7-8d63-af9c03321538>",
+              "type": "<http://campus-aar.fr/asa#ad5537f7-c606-4780-9493-c866a6836008>",
+              "target": "<http://campus-aar.fr/asa#d18eb02b-69bb-4c58-866f-4d0c7a06fe6b>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#d4c91f7a-78ca-4dd7-8c4d-4abc36d8e01a>",
+              "type": "<http://campus-aar.fr/asa#e081d333-805f-44c9-96d7-ec9853cc9a31>",
+              "target": "<http://campus-aar.fr/asa#d18eb02b-69bb-4c58-866f-4d0c7a06fe6b>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#d18eb02b-69bb-4c58-866f-4d0c7a06fe6b>",
+              "description": "Bruits de rues : moteurs, klaxons, voix...",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Paysage sonore de la rue"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#33727250-afe9-4dae-ba8f-65b3d1ac5e25_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:06:59:10819200F14112000",
+          "duration": "PT00H02M58S470400N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#226f893b-d77e-42c5-a2b0-ad01f5db60a5>",
+              "type": "<http://campus-aar.fr/asa#a81d0657-df7e-4f29-9d7f-93b7f2eeffad>",
+              "target": "<http://campus-aar.fr/asa#f5b9eb15-a643-4be8-93dc-c781da9273ee>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#04d520ac-3291-4860-ab73-baede4e9b56a>",
+              "type": "<http://campus-aar.fr/asa#ad5537f7-c606-4780-9493-c866a6836008>",
+              "target": "<http://campus-aar.fr/asa#f5b9eb15-a643-4be8-93dc-c781da9273ee>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#f2ddba90-cced-41d9-bb06-22d865e34524>",
+              "type": "<http://campus-aar.fr/asa#fd6d1e4e-b488-409a-a0cd-1e6b7fb7cb37>",
+              "target": "<http://campus-aar.fr/asa#f5b9eb15-a643-4be8-93dc-c781da9273ee>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#9f7dba46-a354-4464-aab1-8955b2b3b7fa>",
+              "type": "<http://campus-aar.fr/asa#e081d333-805f-44c9-96d7-ec9853cc9a31>",
+              "target": "<http://campus-aar.fr/asa#f5b9eb15-a643-4be8-93dc-c781da9273ee>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#f5b9eb15-a643-4be8-93dc-c781da9273ee>",
+              "description": "Bruits liés aux événements qui se passe dans les plans filmés.",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Paysage sonore de la rue"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#58362fc8-9103-4f95-90e6-6497b6b40bab_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:12:41:1881600F14112000",
+          "duration": "PT00H01M54S4704000N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#db1fd1c5-3464-49e7-b450-1a23fd845b4c>",
+              "type": "<http://campus-aar.fr/asa#fd6d1e4e-b488-409a-a0cd-1e6b7fb7cb37>",
+              "target": "<http://campus-aar.fr/asa#d2a4b405-a73f-4506-acd3-b61cd4722914>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#d2a4b405-a73f-4506-acd3-b61cd4722914>",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Fond sonore accompagnant la captation vidéo"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#d7845f52-a442-4456-b550-6ce0c1052768_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:14:35:6585600F14112000",
+          "duration": "PT00H06M35S3763200N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#47bc88da-8ae3-42f0-ad5f-56fc2b1747db>",
+              "type": "<http://campus-aar.fr/asa#fd6d1e4e-b488-409a-a0cd-1e6b7fb7cb37>",
+              "target": "<http://campus-aar.fr/asa#d1aa3110-6e5a-40b4-97af-4269223a0170>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#a33bf9a0-e0d3-4404-aa6d-e8512128398f>",
+              "type": "<http://campus-aar.fr/asa#a81d0657-df7e-4f29-9d7f-93b7f2eeffad>",
+              "target": "<http://campus-aar.fr/asa#d1aa3110-6e5a-40b4-97af-4269223a0170>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#1ad5f8f0-393f-489a-83d3-c518559077eb>",
+              "type": "<http://campus-aar.fr/asa#e081d333-805f-44c9-96d7-ec9853cc9a31>",
+              "target": "<http://campus-aar.fr/asa#d1aa3110-6e5a-40b4-97af-4269223a0170>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#d1aa3110-6e5a-40b4-97af-4269223a0170>",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Paysage sonore ambiant"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#7b14a60a-b4ca-462d-bc70-a9f111fca205>",
+              "type": "<http://campus-aar.fr/asa#a81d0657-df7e-4f29-9d7f-93b7f2eeffad>",
+              "target": "<http://campus-aar.fr/asa#26f87118-ec54-41d2-8635-1edf4564e9c0>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#6aab9378-21a5-4739-90db-6d4dfac4fd2b>",
+              "type": "<http://campus-aar.fr/asa#ad5537f7-c606-4780-9493-c866a6836008>",
+              "target": "<http://campus-aar.fr/asa#26f87118-ec54-41d2-8635-1edf4564e9c0>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#26f87118-ec54-41d2-8635-1edf4564e9c0>",
+              "description": "Voix off explicitant les objets et les lieux",
+              "type": "<http://campus-aar.fr/asa#fe767a32-12f1-4e4c-b87f-e2bc053c4353>",
+              "label": "Voix off de la guide accompagnatrice"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#0f2f91eb-5ee8-43af-b7d5-2e9d624d7da1_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:21:10:10348800F14112000",
+          "duration": "PT00H23M11S8467200N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#868369de-c5ca-4cdc-b238-19a465cde3f9>",
+              "type": "<http://campus-aar.fr/asa#482e500b-5cd6-4f9c-9449-4880ec3dbad3>",
+              "label": "Voix in des deux intervenants de l'interview. "
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#49531939-24c0-42b6-b650-92bbb563130d>",
+              "type": "<http://campus-aar.fr/asa#e081d333-805f-44c9-96d7-ec9853cc9a31>",
+              "target": "<http://campus-aar.fr/asa#a7896bfe-ecbe-4411-9e62-7fb62843e128>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#a7896bfe-ecbe-4411-9e62-7fb62843e128>",
+              "description": "Des fonds d'ambiance accomagnent les images : fond sonore de la salle de restaurant et de la visite de la cuisine.",
+              "type": "<http://campus-aar.fr/asa#919da530-54a1-40a6-adab-e96fea629d12>",
+              "label": "Fond sonore vie du restaurant. "
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#c688b400-9e41-449e-b948-9e01e7878df0_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:44:22:4704000F14112000",
+          "duration": "PT00H02M30S3763200N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#3de3e820-5428-4481-8497-41a65aacb581>",
+              "description": "Bruits liés aux différentes activités marchandes. ",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Fond sonore local"
+            }
+          ]
+        },
+        {
+          "id": "<http://campus-aar.fr/asa#5c43a9e2-7509-47d8-993b-2a253544ce9a_audio>",
+          "type": "<http://www.ina.fr/core#TemporalSegment>",
+          "lineNumber": 1,
+          "beginTime": "T00:55:45:940800F14112000",
+          "duration": "PT00H08M06S10348800N14112000F",
+          "about": [
+            {
+              "id": "<http://campus-aar.fr/asa#e2c68c13-96a4-474a-885b-905fd4557c02>",
+              "type": "<http://campus-aar.fr/asa#ad5537f7-c606-4780-9493-c866a6836008>",
+              "target": "<http://campus-aar.fr/asa#658a9591-5df6-4f0b-a4a5-6957da2059b1>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#658a9591-5df6-4f0b-a4a5-6957da2059b1>",
+              "description": "Fond sonore accompagnant les images prises sur le  marché.",
+              "type": "<http://campus-aar.fr/asa#cec12d4f-41d2-4b72-8a36-934d83a5faf9>",
+              "label": "Fond sonore"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#b3f53214-bff4-42d3-8ebb-6161e9ee2228>",
+              "type": "<http://campus-aar.fr/asa#ad5537f7-c606-4780-9493-c866a6836008>",
+              "target": "<http://campus-aar.fr/asa#305b2be0-4a9f-443c-8fbe-34845d55208b>"
+            },
+            {
+              "id": "<http://campus-aar.fr/asa#305b2be0-4a9f-443c-8fbe-34845d55208b>",
+              "description": "Quelques voix off prises lors de la visite du marché, autres bruitages (clapotis de l'eau, son du couteau tranchant un aliment, entrechoquement des coquillages, ...).",
+              "type": "<http://campus-aar.fr/asa#919da530-54a1-40a6-adab-e96fea629d12>",
+              "label": "Bruitage du milieu visité"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "<http://campus-aar.fr/asa#6976cfb9-fc74-4d96-a587-79d8d083bb3f-prop>": {
+    "id": "<http://campus-aar.fr/asa#e8bef5a2-bf8b-4cbd-bec9-d68415942e3d>",
+    "type": "<http://campus-aar.fr/asa#5806b82f-49c2-4fc5-a775-71b92d08cba2>",
+    "lastname": "De Pablo",
+    "forname": "Elisabeth",
+    "label": "Elisabeth De Pablo",
+    "birthDate": "\"1754-01-01T00:00:00\"^^<http://www.w3.org/2001/XMLSchema#dateTime>",
+    "city": "Paris",
+    "country": "France",
+    "activity": "Ingénieur de recherche",
+    "institution": "<http://campus-aar.fr/asa#8c7a9128-7e0f-4a76-b9b3-2ba5d0d9bb78>",
+    "description": "Elisabeth De Palbo est ingénieur de recherche à la FMSH, responsable éditoriale du projet AAR, et responsable du portail thématique Archives Rencontre des Cultures (ARC), ESCoM. "
+  },
+  "_type": "analysis"
+}

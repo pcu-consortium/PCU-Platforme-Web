@@ -1,0 +1,116 @@
+{
+      "select" : [ "customer.*" ],
+      "filters" : [ {
+        "filter" : {
+          "condition" : {
+            "index" : "customers",
+            "field" : "customer.dob",
+            "operator" : "!=",
+            "value" : "NULL"
+          },
+          "logicalOp" : "AND"
+        }
+      }, {
+        "filter" : {
+          "condition" : {
+            "index" : "customers",
+            "field" : "customer.age",
+            "operator" : "=",
+            "value" : "[20,30}"
+          },
+          "logicalOp" : "AND"
+        }
+      }, {
+        "filter" : {
+          "condition" : {
+            "index" : "customers",
+            "field" : "customer.civility",
+            "operator" : "=",
+            "value" : "Mme"
+          }
+        }
+      } ],
+      "prettyPrint" : true,
+      "searchParams" : {
+        "nbResultsToRetrieve" : 20,
+        "scrollSearchTimeout" : 300
+      }
+  }
+
+
+
+
+
+          <table>
+            <tr>
+              <th><span style={{ fontSize: '16px', fontWeight: 'bold', color: '#000', backgroundColor: '#c0c0c0'}}>Résultats</span></th> 
+            </tr>
+          </table>
+
+          <div style={{ overflow: 'auto' }}>
+            <Table striped bordered hover style={{border: '1px solid #000'}}>
+              <thead>
+                <tr>
+                  {tblaheaders.map((title,indx) => 
+                    <th key={indx} style={{whiteSpace: 'nowrap', border: '1px solid #000', backgroundColor: '#ccc'}}>{title}</th>
+                    )
+                  }
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                {tblarows.map((row, i) =>
+                    <td style={{whiteSpace: 'nowrap', border: '1px solid #000'}} key={i}>{row.value}</td>
+                )}
+                </tr>
+              </tbody>
+            </Table>
+          </div>
+
+          <div style={{ overflow: 'auto' }}>
+            <Table striped bordered hover style={{border: '1px solid #000'}}>
+              <thead>
+                <tr>
+                  <th style={{whiteSpace: 'nowrap', border: '1px solid #000', backgroundColor: '#ccc'}}>Field</th>
+                  <th style={{whiteSpace: 'nowrap', border: '1px solid #000', backgroundColor: '#ccc'}}>Value</th>
+                  <th style={{whiteSpace: 'nowrap', border: '1px solid #000', backgroundColor: '#ccc'}}>Count</th>
+                </tr>
+              </thead>
+              <tbody>
+                {tbuck.map((row, i) =>
+                <tr key={i}> 
+                  <td style={{whiteSpace: 'nowrap', border: '1px solid #000'}}>{row.field}</td>
+                  <td style={{whiteSpace: 'nowrap', border: '1px solid #000'}}>{row.key}</td>
+                  <td style={{whiteSpace: 'nowrap', border: '1px solid #000'}}>{row.doc_count}</td>
+                </tr>
+                )}
+              </tbody>
+            </Table>
+          </div>
+
+          <div style={{ overflow: 'auto' }}>
+            <Table striped bordered hover style={{border: '1px solid #000'}}>
+              <thead>
+                <tr>
+                  {tblheaders.map((title,indx) => 
+                    <th key={indx} style={{whiteSpace: 'nowrap', border: '1px solid #000', backgroundColor: '#ccc'}}>{title}</th>
+                    )
+                  }
+                </tr>
+              </thead>
+              <tbody>
+                {tblrows.map((row, i) =>
+                  <tr key={i}>
+                    {row.value.map((col, j) =>
+                      <td style={{whiteSpace: 'nowrap', border: '1px solid #000'}} key={j}>{col}</td>
+                    )}
+                  </tr>
+                )}
+              </tbody>
+            </Table>
+          </div>
+
+
+
+
+

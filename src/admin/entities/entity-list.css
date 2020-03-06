@@ -1,0 +1,5 @@
+
+.table.table-entity-list>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #921a22;
+}

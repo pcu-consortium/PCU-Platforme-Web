@@ -1,0 +1,38 @@
+[ { "type" : "Row", "width" : "100%", "children" : [ 
+    { "type" : "PieChart", "dimension" : "key", "header" : "Répartition par sexe", "data" : [ { "key" : " Homme", "cnt" : 50000 }, { "key" : "Femme", "cnt" : 30000 } ] }, { "type" : "StackedBarbis", "data" : [ { "col" : "Homme m", "a" : 30, "b" : 0 }, { "col" : "Femme m", "a" : 0, "b" : 20 }, { "col" : "Homme M", "a" : 80, "b" : 0 }, { "col" : "Femme M", "a" : 0, "b" : 60 } ], "columns" : [ {  } ], "keys" : [ { "a" : true, "b" : true } ], "header" : "Salaires Min et Max par sexe" } ] }, { "type" : "Row", "width" : "100%", "children" : [ { "type" : "PieChart", "dimension" : "key", "header" : "Répartition par âge", "data" : [ { "key" : "soixantaine", "cnt" : 30000 }, { "key" : "cinquantaine", "cnt" : 50000 }, { "key" : "quarantaine", "cnt" : 80000 }, { "key" : "trentaine", "cnt" : 60000 }, { "key" : "vingtaine", "cnt" : 20000 } ] }, { "type" : "StackedBarbis", "data" : [ { "col" : "2x", "a" : 50, "b" : 10 }, { "col" : "3x", "a" : 70, "b" : 50 }, { "col" : "4x", "a" : 90, "b" : 70 }, { "col" : "5x", "a" : 60, "b" : 50 }, { "col" : "6x", "a" : 40, "b" : 30 }, { "col" : "7x", "a" : 10, "b" : 5 }, { "col" : ">8x", "a" : 5, "b" : 4 } ], "columns" : [ {  } ], "keys" : [ { "a" : true, "b" : true } ], "header" : "Salaire moyen par âge et sexe" } ] }, { "type" : "Row", "width" : "100%", "children" : [ { "type" : "PieChart", "dimension" : "key", "header" : "Répartition par continent", "data" : [ { "key" : "Europe", "cnt" : 60000 }, { "key" : "Amérique", "cnt" : 70000 }, { "key" : "Asie", "cnt" : 40000 }, { "key" : "Afrique", "cnt" : 15000 }, { "key" : "Océanie", "cnt" : 5000 } ] }, { "type" : "StackedBarbis", "data" : [ { "col" : "2x", "a" : 5, "b" : 7, "c" : 9, "d" : 2, "e" : 1 }, { "col" : "3x", "a" : 50, "b" : 90, "c" : 70, "d" : 20, "e" : 10 }, { "col" : "4x", "a" : 90, "b" : 70, "c" : 50, "d" : 30, "e" : 20 }, { "col" : "5x", "a" : 100, "b" : 120, "c" : 110, "d" : 60, "e" : 30 }, { "col" : "6x", "a" : 70, "b" : 60, "c" : 50, "d" : 30, "e" : 20 }, { "col" : "7x", "a" : 20, "b" : 20, "c" : 15, "d" : 5, "e" : 1 }, { "col" : ">8x", "a" : 10, "b" : 7, "c" : 4, "d" : 8, "e" : 4 } ], "columns" : [ {  } ], "keys" : [ { "a" : true, "b" : true, "c" : true, "d" : true, "e" : true } ], "header" : "Salaire moyen par âge et continent" } ] } ]
+
+
+Toutes les méthodes sont en GET et les réponses en JSON
+
+http://localhost:<port>/userreco/<user-id> : 10 produits recommandations pour l'utilisateur <user-id>
+
+réponse :
+{"recommandations": [[1963584, "0.000680435"], [3764645, "0.0006724547"], [3207346, "0.0006717205"], [3270829, "0.0006712476"], [1977831, "0.0006691045"], [2406484, "0.0006663572"], [3873136, "0.0006657379"], [2477499, "0.00066006475"], [1684705, "0.0006593033"], [3047851, "0.0006589242"]]}
+
+{"recommandations": "UserId not in databse"} si l'utilisateur n'est pas dans la base
+
+{"recommandations": "Not finished training"} si les recommandations n'ont pas encore été générées
+
+---------------------------
+
+http://localhost:<port>/productreco/<product-id> : utilisateurs potentiellement intéressé par le produit <product-id>
+
+Si le produit est pas dans la base il est possible que il n'y a aucun utilisateur pour lequel on peut recommander le produit.
+
+réponse:
+{"recommandations": [29206, 19334]}
+
+
+-------------------------------
+
+http://localhost:<port>/usersim/<user-id> : Les 10 utilisateurs les plus similaire a l'utilisateur <user-id>
+
+réponse:
+{"recommandations": [29206, 19334]}{"recommandations": [4, 10550, 16471, 58979, 13291, 1328, 39561, 57662, 64446, 54222]}
+
+------------------------------
+
+http://localhost:<port>/productsim/<product-id> : Les 10 produits les plus similaires au produit <product-id>
+
+réponse: 
+{"recommandations": [3522817, 3799955, 2504467, 3806142, 1258052, 2831532, 3080132, 3079804, 3204938, 300274]}     

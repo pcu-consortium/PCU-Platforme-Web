@@ -1,0 +1,9 @@
+{
+  "api": {
+    "host": "campus-aar-api",
+    "entryPoint": ""
+  },
+  "db": {
+    "url": "mongodb://localhost:27017/campus-aar-pre-production"
+  }
+}

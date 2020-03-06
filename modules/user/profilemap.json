@@ -1,0 +1,37 @@
+{
+    "profileid1": {
+        "id":"profileid",
+        "en": "Id",
+        "fr": "Identifiant du profil"
+       
+    },
+    "profilename": {
+        "id":"profilename",
+        "en": "Profile name",
+        "fr": "Nom du profil"
+       
+    },
+    "description": {
+        "id":"description",
+        "en": "Description",
+        "fr": "Description"
+    },
+    "portail":{
+       "id" :"portail",
+       "en": "Portal",
+       "fr": "Portail"
+    },
+    "tache":{
+        "id": "tache",
+        "en": "Task",
+        "fr": "Activité(s)"
+    }
+}
+
+
+
+    
+          
+          
+        
+         

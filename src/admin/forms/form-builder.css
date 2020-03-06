@@ -1,0 +1,208 @@
+
+
+
+
+.fa.pull-right.control-label {
+    padding: 4px;
+}
+
+
+.react-grid-layout {
+    background: transparent;
+}
+
+.form-builder .react-grid-placeholder {
+    background: transparent;
+    border: 1px dashed #111;
+}
+
+.form-builder .react-grid-item {
+    padding: 4px;
+}
+
+
+.react-draggable {
+    position: relative;
+}
+
+.react-grid-item {
+    transition: all 200ms ease;
+    transition-property: left, top;
+
+}
+
+.react-grid-item textarea {
+    resize: none;
+}
+
+.react-grid-item .fa.form-control-feedback {
+    line-height: 34px;
+    height: 34px;
+}
+
+.react-grid-item.selected {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+}
+
+.react-grid-item.react-draggable-dragging,
+.react-grid-item.clean.react-draggable-dragging {
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+}
+
+.react-grid-item:not(.react-grid-placeholder) {
+    background: #ccc;
+    border: 1px solid black;
+}
+
+.react-grid-item.clean {
+    background: transparent;
+    border: none;
+}
+
+.react-grid-item h4 {
+    margin: 0;
+}
+
+/* 100% height fix */
+.react-grid-item.fill-height>div {
+    height: calc(100% - 16px);
+}
+
+.react-grid-item.fill-height .form-group,
+.react-grid-item.fill-height .input-group{
+    height: 100%
+}
+
+.react-grid-item.fill-height textarea.form-control {
+    height: calc(100% - 25px);
+}
+
+/* form/input margin adjustements */
+.react-grid-item .form-group {
+    /*margin-bottom: 0px;*/
+    margin-right: 4px;
+    /*padding: 4px;*/
+}
+
+/*.react-grid-item.react-grid-input {*/
+    /*padding: 4px;*/
+/*}*/
+
+.react-grid-item .input-group {
+    width: 100%;
+}
+
+.react-grid-item .text {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 24px;
+}
+.react-grid-item .form-control[disabled] {
+    cursor: inherit;
+}
+
+.react-grid-item.wall {
+    background: #eee;
+    border: none;
+    /*border-left: 1px solid black;*/
+    /*border-right: 1px solid black;*/
+}
+
+.react-resizable-handle.react-draggable {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pg08IS0tIEdlbmVyYXRvcjogQWRvYmUgRmlyZXdvcmtzIENTNiwgRXhwb3J0IFNWRyBFeHRlbnNpb24gYnkgQWFyb24gQmVhbGwgKGh0dHA6Ly9maXJld29ya3MuYWJlYWxsLmNvbSkgLiBWZXJzaW9uOiAwLjYuMSAgLS0+DTwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DTxzdmcgaWQ9IlVudGl0bGVkLVBhZ2UlMjAxIiB2aWV3Qm94PSIwIDAgNiA2IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjojZmZmZmZmMDAiIHZlcnNpb249IjEuMSINCXhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbDpzcGFjZT0icHJlc2VydmUiDQl4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjZweCIgaGVpZ2h0PSI2cHgiDT4NCTxnIG9wYWNpdHk9IjAuMzAyIj4NCQk8cGF0aCBkPSJNIDYgNiBMIDAgNiBMIDAgNC4yIEwgNCA0LjIgTCA0LjIgNC4yIEwgNC4yIDAgTCA2IDAgTCA2IDYgTCA2IDYgWiIgZmlsbD0iIzAwMDAwMCIvPg0JPC9nPg08L3N2Zz4=');
+    background-position: bottom right;
+    padding: 0 3px 3px 0;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    box-sizing: border-box;
+    cursor: e-resize;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -moz-transform: none !important;
+}
+
+.react-grid-item.fill-height .react-resizable-handle.react-draggable {
+    cursor: se-resize;
+}
+
+
+
+/* modern theme */
+.form-modern .react-grid-item .control-label {
+    text-transform: uppercase;
+    color: #777;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+/* material theme */
+.form-material .react-grid-item .control-label {
+    /*text-transform: uppercase;*/
+    color: #777;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.form-material .form-control {
+    /*height: 20px;*/
+    /*padding: 1px 0px;*/
+    /*font-size: 12px;*/
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition : border-color 300ms ease-out;
+    -moz-transition : border-color 300ms ease-out;
+    -o-transition : border-color 300ms ease-out;
+    transition : border-color 300ms ease-out;
+}
+
+.form-material .form-control:focus {
+    border-color: #444;
+}
+
+.form-material .has-error .form-control {
+    height: 21px;
+    border-color: #a94442;
+    border-bottom-width: 2px;
+}
+.form-material .has-error .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-material .form-control-feedback {
+    line-height: 20px;
+    height: 20px;
+}
+
+.form-material .has-error .control-label {
+    color: #a94442;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 1px;
+}
+
+.form-material .input-group-addon {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+}

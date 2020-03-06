@@ -1,0 +1,47 @@
+doctype html
+mixin staticJS(filename)
+    script(type="text/javascript", src=assetFingerprint(filename))
+mixin staticCSS(filename)
+    link(type="text/css", rel="stylesheet", href=assetFingerprint(filename))
+html
+    head
+        title #{sitename}
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+
+        //- +staticCSS("/components/bootstrap/dist/css/bootstrap.min.css")
+        //- +staticCSS("/components/bootstrap/dist/css/bootstrap-theme.min.css")
+        +staticCSS("/stylesheets/bootstrap/bootstrap.paper.min.css")
+        +staticCSS("/stylesheets/fonts/font-awesome.min.css")
+        +staticCSS("/stylesheets/armadillo/cms.css")
+
+        +staticJS("/dist/vendor.js")
+
+        //+staticJS("/components/mousetrap/mousetrap.min.js")
+        +staticJS("/components/jquery/dist/jquery.min.js")
+        +staticJS("/components/bootstrap/dist/js/bootstrap.min.js")
+        +staticJS("/javascripts/armadillo/wml.js")
+        +staticJS("/javascripts/armadillo/components.js")
+        
+        script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places")
+    body
+        #container.fill-parent
+        i(style="display: none;").fa.fa-spinner
+
+        script(type="text/javascript").
+            //<![CDATA[
+                if (window.CmsAdmin) window.CmsAdmin.api = '#{api}';
+
+                var params = {
+                    content: !{JSON.stringify(content)},
+                    baseUrl: '#{baseUrl}',
+                    site: '#{site}',
+                    api: '#{api}',
+                    searchUrl: '#{searchUrl}',
+                    blocks: !{JSON.stringify(blocks ||{})}
+                };
+                window.AdminGlobals = params;
+                window.__data__ = params;
+            //]]>
+        script(type="text/javascript", src=assetFingerprint('#{"/dist/" + reactApp + ".js"}'))
+

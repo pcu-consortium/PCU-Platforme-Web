@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"pcu-pre-production.users"},{"v":2,"key":{"name":1},"name":"name_1","ns":"pcu-pre-production.users","background":true},{"v":2,"key":{"profiles":1},"name":"profiles_1","ns":"pcu-pre-production.users","background":true}],"uuid":"b3a8a4c2c5c44924a919063f98eeb7f1"}

@@ -1,0 +1,48 @@
+WidgetManager.registerWidget("ViewConfig", {
+    component: ViewConfigWidget,
+    config: [
+    ]
+}
+);
+
+WidgetManager.registerWidget("ViewConfigParams", {
+    component: ViewConfigParamsWidget,
+    config: [
+    ]
+}
+);
+
+WidgetManager.registerWidget("ViewConfigParams1", {
+  component: ViewConfigParams1Widget,
+  config: [
+  ]
+}
+);
+
+WidgetManager.registerWidget("ViewConfigList", {
+    component: ViewConfigListWidget,
+    config: [
+    ]
+}
+);
+
+WidgetManager.registerWidget("ViewConfigViewList", {
+    component: ViewConfigViewListWidget,
+    config: [
+    ]
+}
+);
+
+WidgetManager.registerWidget("ViewConfigQuerySyntax", {
+    component: ViewConfigQuerySyntaxWidget,
+    config: [
+    ]
+}
+);
+
+WidgetManager.registerWidget("Welcome", {
+    component: WelcomeWidget ,
+ config: [
+    ]
+}
+);

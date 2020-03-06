@@ -1,0 +1,521 @@
+
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "View Configure",
+    "description": "an API that provides connection to ES database and  found bi view ",
+    "contact": {
+      "name": "Armadillo Team"
+    },
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "host": "localhost:3000/pcu",
+  "basePath": "/api",
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "tags": [
+
+    {
+        "name": "schema" ,  
+        "description": "the different mapping and schema "
+      
+    },
+    {
+        "name": "search",
+        "description": "entity and document search"
+    },
+    {
+        "name": "metrics",
+        "description": "metrics about views "
+       
+    }
+
+],
+  
+  
+  
+  
+  "paths": {
+    "/datasource": {
+      "get": {
+        "tags": [
+        "schema"
+        ],
+        "description": "Returns the datasource name",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "list of the different datasource name",
+            "schema": {
+              "type": "array"
+            }
+          }
+        }
+      }
+    },
+    "/views/{datasource}": {
+      "get": {
+          "tags": [
+        "schema"
+        ],
+        "description": "Returns a specific indice mapping",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "the datasource            mapping .",
+            "schema": {
+              "type": "array"
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                      }
+                    }
+            }
+         }
+    },
+    "/view/{datasource}/{viewtype}": {
+      
+      "get": {
+        "description": "Returns a specific view type mapping",
+          "tags": [
+        "schema"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "viewtype",
+            "in": "path",
+            "description": "type name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "the type mapping.",
+            "schema": {
+               "$ref": "#/definitions/viewType"
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                      }
+                    }
+            }
+         }
+    
+    },
+ 
+  "/view/{datasource}/{viewType}/{id}":{
+      "get": {
+        "description": "Returns a specific document/entity by id",
+          "tags": [
+        "search"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "viewtype",
+            "in": "path",
+            "description": "type name",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "the found entity.",
+            "schema": {
+               "$ref": "#/definitions/Entity"
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                      }
+                    }
+            }
+         }
+    
+  },
+  "/view/{datasource}/{viewType}/search":{
+      "get": {
+        "description": "search by query in the specific view the list of documents or entities",
+        "produces": [
+          "application/json"
+        ],
+          "tags": [
+        "search"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "viewtype",
+            "in": "path",
+            "description": "type name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "query",
+            "in": "query",
+            "description": "an elasticsearch query",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "the set of entities.",
+            "content": {
+             "*/*": {
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Entity"
+              }
+            }
+            }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                   
+                      }
+                    }
+            }
+         }
+    
+  },
+  "/view/{datasource}/avg/{field}": {
+      "get": {
+        "description": "Returns the data avreg of a specific field",
+          "tags": [
+        "metrics"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "field",
+            "in": "path",
+            "description": "field name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "hits",
+            "in": "query",
+            "description": "get or not the hit document",
+            "required": false,
+            "type": "boolean"
+          }
+          ],
+        "responses": {
+          "200": {
+            "description": "the average value and if hits is true the list of document.",
+            "schema": {
+              "type": "array"
+            }
+            },
+         "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                   
+                      }
+                    }
+          }
+      }  
+         },
+  
+    "/view/{datasource}/metrics/{field}": {
+     "get": {
+        "description": "Returns the min, max and average  of a specific field",
+        "produces": [
+          "application/json"
+        ],
+           "tags": [
+        "metrics"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "field",
+            "in": "path",
+            "description": "field name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "hits",
+            "in": "query",
+            "description": "get or not the hit document",
+            "required": false,
+            "type": "boolean"
+          }
+          ],
+        "responses": {
+          "200": {
+            "description": "the min max avg values (and) hits documents.",
+            "schema": {
+              "type": "array"
+            }
+            },
+               "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                   
+                      }
+                    }
+          }
+      }  
+         },
+  
+    "/view/{datasource}/Sum/{field}": {
+      
+       "get": {
+        "description": "Returns the min, max and average  of a specific field",
+           "tags": [
+        "metrics"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "field",
+            "in": "path",
+            "description": "field name",
+            "required": true,
+            "type": "string"
+          
+          }
+          ],
+        "responses": {
+          "200": {
+            "description": "the sum of the field value.",
+            "schema": {
+              "type": "array"
+            }
+            },
+               "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                   
+                      }
+                    }
+          }
+      }  
+      
+      
+      
+    },
+    "/view/{datasource}/matrixs":{
+      
+       "get": {
+        "description": "Returns the min, max and average  of a specific field",
+           "tags": [
+        "metrics"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datasource",
+            "in": "path",
+            "description": "datasource name",
+            "required": true,
+            "type": "string"
+          },
+           {
+            "name": "field",
+            "in": "path",
+            "description": "field name",
+            "required": true,
+            "type": "array"
+          },
+           {
+            "name": "hits",
+            "in": "query",
+            "description": "get or not the hit document",
+            "required": false,
+            "type": "boolean"
+          }
+          ],
+        "responses": {
+          "200": {
+            "description": "the average value.",
+            "schema": {
+              "type": "array"
+            }
+            },
+               "default": {
+            "description": "unexpected error",
+            "schema": {
+              "$ref": "#/definitions/Error"
+                   
+                      }
+                    }
+          }
+      }  
+      
+      
+      
+      
+      
+      
+    }
+  },
+  "definitions": {
+    "viewType": {
+      "type": "object",
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_index": {
+          "type": "string"
+        },
+         "_type":{
+          "type": "string"
+        },
+         "_score": {
+          "type": "number"
+        },
+        "label": {
+          "type": "string"
+        },
+        "fields": {
+          "type": "object"
+        },
+        "tag": {
+          "type": "string"
+        }
+      }
+  },
+   "Entity":{
+      "type": "object",
+      "required": [
+        "label"
+      ],
+      "properties": {
+        "_id": {
+          "type": "string"
+        },
+        "_index": {
+          "type": "string"
+        },
+         "_type":{
+          "type": "string"
+        },
+         "_version": {
+          "type": "number"
+        },
+        "source": {
+          "type": "object"
+        }
+      } 
+     
+     
+   },
+    "Error": {
+      "type": "object",
+      "required": [
+        "code",
+        "message"
+      ],
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

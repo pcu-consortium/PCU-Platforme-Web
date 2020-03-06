@@ -1,0 +1,35 @@
+{
+  "name": "campus",
+  "version": "0.1",
+  "authors": [
+    "Thierry Marianne <thierry.marianne@weaving-the-web.org>"
+  ],
+  "description": "Components for Campus",
+  "main": "app.js",
+  "license": "Proprietary",
+  "homepage": "http://armadillo.fr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/components"
+  ],
+  "directory": "public/components",
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "yamljs": "~0.1.5",
+    "ace-builds": "~1.1.9",
+    "mousetrap": "~1.5.2",
+    "d3": "3.5.0",
+    "d3.layout.cloud": "~1.0.5",
+    "qrcodejs": "~0.1.0",
+    "jsplumb": "1.7.5",
+    "moment": "~2.10.3",
+    "c3": "~0.4.10",
+    "fullcalendar": "~2.3.2",
+    "lodash": "~3.10.0",
+    "paper": "~0.9.23"
+  }
+}

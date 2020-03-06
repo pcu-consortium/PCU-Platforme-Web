@@ -1,0 +1,31 @@
+
+.user-profile .address {
+    text-align: center
+}
+
+.user-data .header {
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #999;
+}
+
+.user-data hr {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border-color: #AAA;
+}
+
+.user-data>.user-info {
+    padding-left: 8px;
+}
+
+.user-top-info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background-color: #23527c;
+}
+
+.user-top-info h1, .user-top-info h2, .user-top-info h3, .user-top-info h4, .user-top-info h5 {
+    color: white;
+}

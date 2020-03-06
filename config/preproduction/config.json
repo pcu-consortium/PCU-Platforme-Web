@@ -1,0 +1,9 @@
+{
+  "api": {
+    "host": "lab2.armadillo.fr",
+    "entryPoint": "/campusaar/Symfonyv12/web/app.php"
+  },
+  "db": {
+    "url": "mongodb://localhost:27017/campus-aar-pre-production"
+  }
+}

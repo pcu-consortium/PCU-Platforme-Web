@@ -1,0 +1,158 @@
+# -*- mode: makefile -*-
+
+MDUMPDATE := 2016.11.03-13.18.36
+EDUMPDATE := 2019.02.20-12.01.00
+
+################################################################################
+################################################################################
+
+.PHONY: start-all
+start-all:
+	@$(MAKE) clone-repo
+	@$(MAKE) start-mongo
+	@$(MAKE) restore-all
+	@$(MAKE) start-reco
+	@$(MAKE) start-prod
+
+restart:
+	@$(MAKE) stop-mongo
+	@$(MAKE) start-mongo
+	@$(MAKE) start-prod
+
+stop-mongo:
+	-pkill mongod
+
+stop-elastic:
+	-kill `cat /mnt/elastic-base/pid`
+
+################################################################################
+################################################################################
+
+.PHONY: clone-repo
+clone-repo:
+	cp -r /mnt/sources /root/pcu
+#	git clone /mnt/sources /root/pcu
+	rm -Rf /root/pcu/files
+	ln -s /mnt/vignettes /root/pcu/files
+	rm -Rf /root/pcu/public/files
+	ln -s /mnt/uploaded-files /root/pcu/public/files
+	cd /root/pcu; rm -Rf node_modules/
+	cd /root/pcu; tar -xzvf nodes.tar.gz
+  # cd /root/pcu; npm install
+	#cd /root/pcu; npm run build:prod
+	cd /root/pcu; bower --allow-root install
+
+################################################################################
+################################################################################
+
+.PHONY: start-mongo
+start-mongo:
+	#-chown elasticsearch:elasticsearch -R /mnt/mongo-base
+	-rm -Rf /mnt/mongo-base/database
+	rm -Rf /mnt/mongo-base/log
+	-mkdir -p /mnt/mongo-base/database
+	touch /mnt/mongo-base/log
+	/usr/bin/mongod --fork -dbpath /mnt/mongo-base/database --logpath /mnt/mongo-base/log --logappend
+	sleep 10
+
+.PHONE: start-reco
+start-reco:
+	cd /root/pcu/smile_data; python3 recommendation_server.py &
+	sleep 5
+
+################################################################################
+
+.PHONY: start-elastic
+start-elastic:
+	-groupadd -g 131 elasticsearch
+	-useradd -u 120 -g 131 elasticsearch
+	-chown elasticsearch:elasticsearch -R /mnt/elastic-base
+	cd /mnt/elastic-base; su elasticsearch -c './bin/elasticsearch -d -p pid'
+
+################################################################################
+################################################################################
+
+.PHONY: start-dev
+start-dev:
+	cd /root/pcu; npm run dev
+
+################################################################################
+
+.PHONY: start-prod
+start-prod:
+	cd /root/pcu; npm run dev
+
+################################################################################
+################################################################################
+
+.PHONY: dump-all
+dump-all:
+	$(MAKE) dump-mongo
+#$(MAKE) dump-elastic
+
+################################################################################
+
+.PHONY: dump-mongo
+dump-mongo:
+	@$(MAKE) stop-mongo
+	@$(MAKE) start-mongo
+	DATE=$$(date +%Y.%m.%d-%H.%M.%S);                                                     \
+	  rm -Rf                                    /mnt/mongo-dumps/mongo-dump-$${DATE}  &&  \
+	  mkdir                                     /mnt/mongo-dumps/mongo-dump-$${DATE}  &&  \
+	  mongodump -d armadb                    -o /mnt/mongo-dumps/mongo-dump-$${DATE}/ &&  \
+	  mongodump -d pcu                       -o /mnt/mongo-dumps/mongo-dump-$${DATE}/ &&  \
+	  mongodump -d pcu-demo                  -o /mnt/mongo-dumps/mongo-dump-$${DATE}/ &&  \
+	  mongodump -d pcu-pre-production        -o /mnt/mongo-dumps/mongo-dump-$${DATE}/ ||  \
+	  ( rm -Rf                                  /mnt/mongo-dumps/mongo-dump-$${DATE}  &&  \
+	    exit 1 )
+
+################################################################################
+
+.PHONY: dump-elastic
+dump-elastic:
+	@$(MAKE) stop-elastic
+	DATE=$$(date +%Y.%m.%d-%H.%M.%S);                                                      \
+	  rm -Rf                       /mnt/elastic-dumps/elastic-dump-$${DATE}            &&  \
+	  mkdir                        /mnt/elastic-dumps/elastic-dump-$${DATE}            &&  \
+	  echo '!data/' >>             /mnt/elastic-dumps/elastic-dump-$${DATE}/.gitignore &&  \
+	  echo '!logs/' >>             /mnt/elastic-dumps/elastic-dump-$${DATE}/.gitignore &&  \
+	  cp -a /mnt/elastic-base/data /mnt/elastic-dumps/elastic-dump-$${DATE}/           &&  \
+	  cp -a /mnt/elastic-base/logs /mnt/elastic-dumps/elastic-dump-$${DATE}/           ||  \
+	  ( rm -Rf                     /mnt/elastic-dumps/elastic-dump-$${DATE}            &&  \
+	    $(MAKE) start-elastic &&                                                           \
+	    exit 1 )
+	@$(MAKE) start-elastic
+
+################################################################################
+################################################################################
+
+.PHONY: restore-all
+restore-all:
+	$(MAKE) restore-mongo
+#	$(MAKE) restore-elastic
+
+################################################################################
+
+.PHONY: restore-mongo
+restore-mongo:
+	@$(MAKE) stop-mongo
+	@$(MAKE) start-mongo
+	mongorestore /mnt/mongo-dumps/dump/armadb -d armadb
+	mongorestore /mnt/mongo-dumps/dump/pcu -d pcu
+	mongorestore /mnt/mongo-dumps/dump/pcu-demo -d pcu-demo
+	mongorestore /mnt/mongo-dumps/dump/pcu-pre-production -d pcu-pre-production
+	mongorestore /mnt/mongo-dumps/dump/campus-aar-pre-production -d campus-aar-pre-production
+
+################################################################################
+
+.PHONY: restore-elastic
+restore-elastic:
+	@$(MAKE) stop-elastic
+	rm -Rf /mnt/elastic-base/data
+	rm -Rf /mnt/elastic-base/logs
+	cp -a /mnt/elastic-dumps/elastic-dump-$(EDUMPDATE)/data /mnt/elastic-base/
+	cp -a /mnt/elastic-dumps/elastic-dump-$(EDUMPDATE)/logs /mnt/elastic-base/
+	@$(MAKE) start-elastic
+
+################################################################################
+################################################################################

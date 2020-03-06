@@ -1,0 +1,185 @@
+
+.navbar-default {
+  background-image:none;
+  background-color: #964F1B;
+  border-color: #964F1B;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Segoe UI Light", "Helvetica Neue", "Segoe UI", "Segoe WP", sans-serif;
+  font-weight: 200; 
+  color: #964F1B;
+}
+
+h1.panel-title , h2.panel-title , h3.panel-title , h4.panel-title , h5.panel-title  {
+  /*font-family: "Segoe UI Light", "Helvetica Neue", "Segoe UI", "Segoe WP", sans-serif;*/
+  font-weight: 100; 
+  /*color: #964F1B;*/
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  font-family: "Segoe UI Light", "Helvetica Neue", "Segoe UI", "Segoe WP", sans-serif;
+  font-weight: 100; 
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  background-image: none;
+  color: white;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none;
+}
+
+.navbar .active > a > .badge {
+  color: #964F1B;
+  background-color: rgb(255, 255, 255);
+}
+
+/*.panel-primary, */
+.panel-info  {
+  border-color: #964F1B;
+}
+
+/*.panel-primary > .panel-heading, */
+.panel-info > .panel-heading {
+  background-color: #964F1B;
+  border-color: #964F1B;
+  color: #ffffff;
+  background-image: none;
+}
+
+.panel-info > .panel-heading .badge {
+  background-color: #ffffff;
+  color: #964F1B;
+}
+
+.progress-bar-info {
+  background-color: #964F1B;
+}
+
+/*.btn-info, .btn-info:hover, .btn-info:focus {
+  background-color: #964F1B;
+  border-color: #964F1B;
+}
+
+.btn-info.disabled, .btn-info[disabled], fieldset[disabled] .btn-info, .btn-info.disabled:hover, .btn-info[disabled]:hover, fieldset[disabled] .btn-info:hover, .btn-info.disabled:focus, .btn-info[disabled]:focus, fieldset[disabled] .btn-info:focus, .btn-info.disabled:active, .btn-info[disabled]:active, fieldset[disabled] .btn-info:active, .btn-info.disabled.active, .btn-info[disabled].active, fieldset[disabled] .btn-info.active {
+  background-color: #964F1B;
+  border-color: #964F1B;
+  opacity: 0.5;
+}*/
+
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #d4d4d4;
+  border-color: #d4d4d4;
+}
+
+/*.list-group-item.active .list-group-item-heading, 
+.list-group-item.active:hover .list-group-item-heading {
+  color: #333333 !important;
+}
+*/
+.sequence-item.list-group-item:hover:not(.active), .sequence-item.list-group-item.hover:not(.active) {
+  padding: 6px;
+  background: #f5f5f5;
+}
+
+.list-group-item.active .badge {
+  background-color: #964F1B;
+}
+
+.document-heading a {
+  color: #964F1B !important;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+  position: absolute;
+  line-height: 34px;
+}
+
+#sequences input {
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.btn-toolbar.darkroom-toolbar-actions {
+  margin-bottom: 8px;
+}
+
+.darkroom-image-container {
+  border: 1px solid #aaaaaa;
+  background-color: #eeeeee;
+}
+
+.btn.darkroom-button-hidden {
+  display: none;
+}
+
+.popover-content input {
+  width: 100px;
+}
+
+.canvas-container {
+  margin: auto;
+}
+
+
+.form-inline .form-control {
+  width: 100%;
+}
+
+.darkroom-toolbar-actions .btn {
+  border-radius: 0;
+}
+
+.video-section, .see-also-section, .video-info-section {
+  padding: 12px 0;
+  border-top: 1px solid rgb(150, 79, 27);
+  border-bottom: 1px solid rgb(150, 79, 27);
+}
+
+.video-section {
+  background-color: rgba(150, 79, 27, 0.15);
+}
+
+.video-info-section {
+  padding: 12px 0;
+  background-color: rgba(150, 79, 27, 0.1);
+}
+
+.see-also-section {
+  background-color: rgba(150, 79, 27, 0.05);
+}
+
+.video-section video {
+  border: 2px solid rgb(150, 79, 27);
+}
+
+.section800 {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+
+.section960 {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+
+
+
+

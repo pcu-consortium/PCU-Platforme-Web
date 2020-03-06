@@ -1,0 +1,39 @@
+.dtree-line:hover:after {
+    background: rgba(0, 0, 0, 0.05);
+}
+.dtree-line:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: -1000px;
+    right: -1000px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.dtree-line {
+  z-index: 1;
+  position: relative;
+  padding: 2px 0 2px 0;
+}
+
+.dtree-children {
+  padding-left: 16px;
+}
+
+.dtree-string {
+  color: #007777;
+}
+
+.dtree-number {
+  color: #AA00AA;
+}
+
+.dtree-bool {
+  color: #CC0000;
+}
+
+.dtree-object {
+  color: #888;
+}

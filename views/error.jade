@@ -1,0 +1,10 @@
+doctype html
+
+html
+    head
+        meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+
+    body
+        h1= message
+        h2= error.status
+        pre #{error.stack}

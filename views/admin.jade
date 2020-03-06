@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    #navbar
+    #container.fill-parent
+
+    script(type="text/javascript").
+        //<![CDATA[
+            var content = !{JSON.stringify(content)};
+            var blocks = !{JSON.stringify(blocks)};
+            CmsAdmin.api = '#{api}';
+
+            var params = {
+                content: content,
+                baseUrl: '#{baseUrl}',
+                site: '#{site}',
+                api: '#{api}',
+                searchUrl: '#{searchUrl}',
+                blocks: blocks
+            };
+            window.AdminGlobals = params;
+            window.__data__ = params;
+        //]]>
+    script(type="text/javascript", src=assetFingerprint("/dist/admin.js"))
+

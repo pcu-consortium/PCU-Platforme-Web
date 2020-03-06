@@ -1,0 +1,79 @@
+2019-11-28T12:37:46.309+0000 ***** SERVER RESTARTED *****
+2019-11-28T12:37:46.312+0000 [initandlisten] MongoDB starting : pid=111 port=27017 dbpath=/mnt/mongo-base/database 64-bit host=7a78618fd2bf
+2019-11-28T12:37:46.313+0000 [initandlisten] db version v2.6.10
+2019-11-28T12:37:46.313+0000 [initandlisten] git version: nogitversion
+2019-11-28T12:37:46.313+0000 [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2019-11-28T12:37:46.313+0000 [initandlisten] build info: Linux lgw01-12 3.19.0-25-generic #26~14.04.1-Ubuntu SMP Fri Jul 24 21:16:20 UTC 2015 x86_64 BOOST_LIB_VERSION=1_58
+2019-11-28T12:37:46.313+0000 [initandlisten] allocator: tcmalloc
+2019-11-28T12:37:46.313+0000 [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "/mnt/mongo-base/database" }, systemLog: { destination: "file", logAppend: true, path: "/mnt/mongo-base/log" } }
+2019-11-28T12:37:46.319+0000 [initandlisten] journal dir=/mnt/mongo-base/database/journal
+2019-11-28T12:37:46.319+0000 [initandlisten] recover : no journal files present, no recovery needed
+2019-11-28T12:37:46.319+0000 [initandlisten] preallocating a journal file /mnt/mongo-base/database/journal/prealloc.1
+2019-11-28T12:37:47.621+0000 [initandlisten] preallocating a journal file /mnt/mongo-base/database/journal/prealloc.2
+2019-11-28T12:37:48.775+0000 [initandlisten] allocating new ns file /mnt/mongo-base/database/local.ns, filling with zeroes...
+2019-11-28T12:37:48.801+0000 [FileAllocator] allocating new datafile /mnt/mongo-base/database/local.0, filling with zeroes...
+2019-11-28T12:37:48.801+0000 [FileAllocator] creating directory /mnt/mongo-base/database/_tmp
+2019-11-28T12:37:48.808+0000 [FileAllocator] done allocating datafile /mnt/mongo-base/database/local.0, size: 64MB,  took 0.003 secs
+2019-11-28T12:37:48.809+0000 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2019-11-28T12:37:48.809+0000 [initandlisten] 	 added index to empty collection
+2019-11-28T12:37:48.809+0000 [initandlisten] waiting for connections on port 27017
+2019-11-28T12:37:58.836+0000 [initandlisten] connection accepted from 127.0.0.1:40752 #1 (1 connection now open)
+2019-11-28T12:37:58.838+0000 [conn1] allocating new ns file /mnt/mongo-base/database/armadb.ns, filling with zeroes...
+2019-11-28T12:37:58.864+0000 [FileAllocator] allocating new datafile /mnt/mongo-base/database/armadb.0, filling with zeroes...
+2019-11-28T12:37:58.868+0000 [FileAllocator] done allocating datafile /mnt/mongo-base/database/armadb.0, size: 64MB,  took 0.003 secs
+2019-11-28T12:37:58.868+0000 [conn1] build index on: armadb.tasks properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "armadb.tasks" }
+2019-11-28T12:37:58.868+0000 [conn1] 	 added index to empty collection
+2019-11-28T12:37:58.871+0000 [conn1] build index on: armadb.sequences properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "armadb.sequences" }
+2019-11-28T12:37:58.871+0000 [conn1] 	 added index to empty collection
+2019-11-28T12:37:58.877+0000 [conn1] end connection 127.0.0.1:40752 (0 connections now open)
+2019-11-28T12:37:58.902+0000 [initandlisten] connection accepted from 127.0.0.1:40754 #2 (1 connection now open)
+2019-11-28T12:37:58.903+0000 [conn2] allocating new ns file /mnt/mongo-base/database/pcu.ns, filling with zeroes...
+2019-11-28T12:37:58.931+0000 [FileAllocator] allocating new datafile /mnt/mongo-base/database/pcu.0, filling with zeroes...
+2019-11-28T12:37:58.937+0000 [FileAllocator] done allocating datafile /mnt/mongo-base/database/pcu.0, size: 64MB,  took 0.005 secs
+2019-11-28T12:37:58.937+0000 [conn2] build index on: pcu.cms_page properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu.cms_page" }
+2019-11-28T12:37:58.937+0000 [conn2] 	 added index to empty collection
+2019-11-28T12:37:58.953+0000 [conn2] build index on: pcu.cms_menu properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu.cms_menu" }
+2019-11-28T12:37:58.953+0000 [conn2] 	 added index to empty collection
+2019-11-28T12:37:58.955+0000 [conn2] end connection 127.0.0.1:40754 (0 connections now open)
+2019-11-28T12:37:58.979+0000 [initandlisten] connection accepted from 127.0.0.1:40756 #3 (1 connection now open)
+2019-11-28T12:37:58.981+0000 [conn3] allocating new ns file /mnt/mongo-base/database/pcu-demo.ns, filling with zeroes...
+2019-11-28T12:37:59.008+0000 [FileAllocator] allocating new datafile /mnt/mongo-base/database/pcu-demo.0, filling with zeroes...
+2019-11-28T12:37:59.012+0000 [FileAllocator] done allocating datafile /mnt/mongo-base/database/pcu-demo.0, size: 64MB,  took 0.003 secs
+2019-11-28T12:37:59.012+0000 [conn3] build index on: pcu-demo.cms_page properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu-demo.cms_page" }
+2019-11-28T12:37:59.012+0000 [conn3] 	 added index to empty collection
+2019-11-28T12:37:59.014+0000 [conn3] build index on: pcu-demo.cms_menu properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu-demo.cms_menu" }
+2019-11-28T12:37:59.014+0000 [conn3] 	 added index to empty collection
+2019-11-28T12:37:59.018+0000 [conn3] end connection 127.0.0.1:40756 (0 connections now open)
+2019-11-28T12:37:59.041+0000 [initandlisten] connection accepted from 127.0.0.1:40758 #4 (1 connection now open)
+2019-11-28T12:37:59.042+0000 [conn4] allocating new ns file /mnt/mongo-base/database/pcu-pre-production.ns, filling with zeroes...
+2019-11-28T12:37:59.069+0000 [FileAllocator] allocating new datafile /mnt/mongo-base/database/pcu-pre-production.0, filling with zeroes...
+2019-11-28T12:37:59.074+0000 [FileAllocator] done allocating datafile /mnt/mongo-base/database/pcu-pre-production.0, size: 64MB,  took 0.005 secs
+2019-11-28T12:37:59.075+0000 [conn4] build index on: pcu-pre-production.users properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu-pre-production.users" }
+2019-11-28T12:37:59.075+0000 [conn4] 	 added index to empty collection
+2019-11-28T12:37:59.077+0000 [conn4] build index on: pcu-pre-production.users properties: { v: 1, key: { name: 1 }, name: "name_1", ns: "pcu-pre-production.users", background: true }
+2019-11-28T12:37:59.078+0000 [conn4] 	 added index to empty collection
+2019-11-28T12:37:59.078+0000 [conn4] build index on: pcu-pre-production.users properties: { v: 1, key: { profiles: 1 }, name: "profiles_1", ns: "pcu-pre-production.users", background: true }
+2019-11-28T12:37:59.078+0000 [conn4] 	 added index to empty collection
+2019-11-28T12:37:59.079+0000 [conn4] build index on: pcu-pre-production.tmp properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu-pre-production.tmp" }
+2019-11-28T12:37:59.079+0000 [conn4] 	 added index to empty collection
+2019-11-28T12:37:59.082+0000 [conn4] build index on: pcu-pre-production.cms_page properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu-pre-production.cms_page" }
+2019-11-28T12:37:59.082+0000 [conn4] 	 added index to empty collection
+2019-11-28T12:37:59.092+0000 [conn4] build index on: pcu-pre-production.cms_menu properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "pcu-pre-production.cms_menu" }
+2019-11-28T12:37:59.092+0000 [conn4] 	 added index to empty collection
+2019-11-28T12:37:59.096+0000 [conn4] end connection 127.0.0.1:40758 (0 connections now open)
+2019-11-28T12:38:03.000+0000 [initandlisten] connection accepted from 127.0.0.1:40762 #5 (1 connection now open)
+2019-11-28T12:38:03.069+0000 [conn5] allocating new ns file /mnt/mongo-base/database/campus-aar-pre-production.ns, filling with zeroes...
+2019-11-28T12:38:03.095+0000 [FileAllocator] allocating new datafile /mnt/mongo-base/database/campus-aar-pre-production.0, filling with zeroes...
+2019-11-28T12:38:03.099+0000 [FileAllocator] done allocating datafile /mnt/mongo-base/database/campus-aar-pre-production.0, size: 64MB,  took 0.003 secs
+2019-11-28T12:38:03.099+0000 [conn5] build index on: campus-aar-pre-production.users properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "campus-aar-pre-production.users" }
+2019-11-28T12:38:03.099+0000 [conn5] 	 added index to empty collection
+2019-11-28T12:38:03.099+0000 [conn5] build index on: campus-aar-pre-production.users properties: { v: 1, key: { name: 1 }, name: "name_1", ns: "campus-aar-pre-production.users", background: true }
+2019-11-28T12:38:03.100+0000 [conn5] 	 added index to empty collection
+2019-11-28T12:38:03.367+0000 [conn5] build index on: campus-aar-pre-production.users properties: { v: 1, unique: true, key: { username: 1 }, name: "username_1", ns: "campus-aar-pre-production.users", background: true }
+2019-11-28T12:38:03.367+0000 [conn5] 	 added index to empty collection
+2019-11-28T12:38:03.898+0000 [conn5] build index on: campus-aar-pre-production.users properties: { v: 1, key: { profiles: 1 }, name: "profiles_1", ns: "campus-aar-pre-production.users", background: true }
+2019-11-28T12:38:03.898+0000 [conn5] 	 added index to empty collection
+2019-11-28T12:38:16.739+0000 [conn5] end connection 127.0.0.1:40762 (0 connections now open)
+2019-11-28T12:38:48.778+0000 [clientcursormon] mem (MB) res:47 virt:1182
+2019-11-28T12:38:48.778+0000 [clientcursormon]  mapped (incl journal view):960
+2019-11-28T12:38:48.778+0000 [clientcursormon]  connections:0

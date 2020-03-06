@@ -1,0 +1,118 @@
+
+.page-with-sidebar {
+    padding-left: 240px;
+}
+
+.sidebar-wrapper {
+    margin-left: -240px;
+    left: 240px;
+    width: 240px;
+    background: #F7F7F7;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    /*transition: all 0.4s ease 0s;*/
+    border-right: 1px solid #E7E7E7;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 32px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-wrapper .btn-toggle {
+    text-decoration: none;
+    color: #555;
+    border-radius: 0px;
+    position: absolute;
+    right: 0;
+    width: 40px;
+    text-align: center;
+}
+
+.sidebar-nav li {
+    line-height: 40px;
+    height: 40px;
+}
+
+.sidebar-nav li.active {
+    line-height: 38px;
+}
+
+.sidebar-nav li a {
+    font-weight: 200;
+    color: #555;
+    display: block;
+    text-decoration: none;
+    padding-left: 3px;
+    white-space: nowrap;
+}
+
+.sidebar-nav li>a>.fa {
+    width: 37px; /*Larger icon width*/
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:focus,
+.sidebar-nav li a:active {
+    background: #E7E7E7;
+    text-decoration: none;
+}
+
+.sidebar-nav li.active a {
+    color: #333;
+    background: #FFF;
+    text-decoration: none;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    border-left: 3px solid #333;
+    padding-left: 0px;
+}
+
+
+/* Collapsed sidebar */
+
+.page-with-sidebar.page-sidebar-collapsed {
+    padding-left: 40px;
+}
+
+.page-sidebar-collapsed .sidebar-wrapper {
+    margin-left: -40px;
+    left: 40px;
+    width: 40px;
+}
+
+.page-sidebar-collapsed .sidebar-nav li>a>.link-label {
+    visibility: hidden;
+}
+
+@media (max-width:767px) {
+
+    .page-with-sidebar {
+        padding-left: 40px;
+    }
+
+    .sidebar-wrapper {
+        margin-left: -40px;
+        left: 40px;
+        width: 40px;
+    }
+
+    .sidebar-nav li>a>.link-label {
+        visibility: hidden;
+    }
+
+    .sidebar-wrapper .btn-toggle {
+        visibility: hidden;
+    }
+}

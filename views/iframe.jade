@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    #navbar
+    #container.fill-parent
+
+    script(type="text/javascript").
+        //<![CDATA[
+        $(document).ready(function() {
+            var content = !{JSON.stringify(content)};
+            CmsAdmin.api = '#{api}';
+
+            ReactDOM.render(
+                React.createElement(CmsMasterPage, {
+                    page: content.page,
+                    baseUrl: '#{baseUrl}',
+                    site: '#{site}',
+                    api: '#{api}',
+                    editing: false,
+                    searchUrl: '#{searchUrl}'
+                }),
+                document.getElementById('container')
+            );
+        });//]]>

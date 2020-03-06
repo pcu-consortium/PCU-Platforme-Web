@@ -1,0 +1,59 @@
+
+Extraction des termes intéressants:
+IN:
+{
+  "documents" : [ "Une cuisine du quotidien, simple et bonne. 100 photos pleines pages 100 recettes minimum et des variations.", "Recettes de cuisine du quotidien, simple et bonne." ],
+  "prettyPrintOut" : true,
+  "expanded" : false
+}
+
+OUT:
+{
+  "documents" : [ {
+    "id" : "doc-1",
+    "keyphrases" : [ "100 photos", "pleines pages", "100 recettes" ]
+  }, {
+    "id" : "doc-2",
+    "keyphrases" : [ "Recettes de cuisine" ]
+  } ]
+}
+
+Expansion des termes intéressants:
+IN:
+{
+  "documents" : [ "Recettes de cuisine" ],
+  "prettyprintOut" : true
+}
+
+OUT:
+{
+  "results" : [ {
+    "terms" : [ "Recettes de cuisine" ],
+    "expansion" : [ "recettes détox", "recettes de cocktails", "recettes de pains", "recettes culinaires", "recettes de desserts", "recettes légères", "recettes gourmandes", "recettes vegan", "recettes sucrées" ]
+  } ]
+}
+
+
+
+
+
+    var url = this.context.api ;
+    var urlapi=window.location.origin.concat(url);
+    var self=this;
+    $.ajax({
+      url: urlapi+'/expansion-query-api-arma/extraction',
+        type: "POST",
+        contentType: 'application/json',
+        data: JSON.stringify(datain),
+        success(data){
+          var temp = [];
+          for (var i = 0; i < data.length ; i ++)
+              temp.push({"label": data[i], "value": data[i]});
+          self.setState({indexes: data, tblindexes: temp});
+          console.log('indexes',data,'tblindexes',temp);
+        }
+        });
+
+
+
+/pcu_reco/smile_data$ python3 reco_clean.py

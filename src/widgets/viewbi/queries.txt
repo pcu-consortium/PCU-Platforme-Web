@@ -1,0 +1,58 @@
+	{ "select" : [ "MIN(customer.session_vids.nbVisit)", "MAX(customer.session_vids.nbVisit) AS MaxNbVisit", "SUM(customer.session_vids.nbVisit) AS TotalNbVisit", "COUNT(customer.session_vids.nbVisit) AS NbVisit", "AVG(customer.session_vids.nbVisit) AS AverageNbVisit", "customer.*" ], "filters" : [ { "filter" : { "condition" : { "index" : "customers", "field" : "customer.dob", "operator" : "!=", "value" : "NULL" }, "logicalOp" : "AND" } }, { "filter" : { "condition" : { "index" : "customers", "field" : "customer.age", "operator" : "=", "value" : "[30,40}" }, "logicalOp" : "AND" } }, { "filter" : { "parenthesis" : "start", "condition" : { "index" : "customers", "field" : "customer.civility", "operator" : "=", "value" : "Mme" }, "logicalOp" : "OR" } }, { "filter" : { "parenthesis" : "end", "condition" : { "index" : "customers", "field" : "customer.civility", "operator" : "=", "value" : "M" } } } ], "groupBy" : [ "customer.civility.keyword", "customer.age" ], "orderBy" : [ "DESC(customer.age)" ], "prettyPrint" : true, "searchParams" : { "nbResultsToRetrieve" : 20, "scrollSearchTimeout" : 180 } } 
+
+
+                  <tr>
+                    <td colSpan="2" style={{ textAlign: 'right'}}><Button href={'ViewConfigViewList?index='+this.state.indexselected+'&entity='+self.state.entityselected}>Configurer vues</Button><Button href={'ViewConfigList?index='+this.state.indexselected+'&entity='+self.state.entityselected}>Configurer requêtes</Button></td> 
+                  </tr>
+
+
+
+
+
+
+                <span style={{ fontSize: '14px', fontWeight: 'bold', color: '#00F'}}>WHERE</span>
+                <Table striped bordered condensed hover>
+                  <tr>
+                  <th style={{ width: 200 }}>Attribute</th>
+                    <th style={{ width: 100 }}>Aggregation</th>
+                    <th>Actions</th>
+                  </tr>
+                  {paramListWhere.map((i) => {
+                    return <QueryTableWhere  querydata={i} onClickWhere={self.delConfigWhere}/>; 
+                    }
+                  )}
+                </Table>
+                <span style={{ fontSize: '14px', fontWeight: 'bold', color: '#00F'}}>GROUP BY</span>
+                <Table striped bordered condensed hover>
+                  <tr>
+                  <th style={{ width: 200 }}>Attribute</th>
+                    <th style={{ width: 100 }}>Aggregation</th>
+                    <th>Actions</th>
+                  </tr>
+                  {paramListGroup.map((i) => {
+                    return <QueryTableGroup  querydata={i} onClickGroup={self.delConfigGroup}/>; 
+                    }
+                  )}
+                </Table>
+                <span style={{ fontSize: '14px', fontWeight: 'bold', color: '#00F'}}>ORDER BY</span>
+                <Table striped bordered condensed hover>
+                  <tr>
+                  <th style={{ width: 200 }}>Attribute</th>
+                    <th style={{ width: 100 }}>Aggregation</th>
+                    <th>Actions</th>
+                  </tr>
+                  {paramListWhere.map((i) => {
+                    return <QueryTableOrder  querydata={i} onClickOrder={self.delConfigOrder}/>; 
+                    }
+                  )}
+                </Table>
+
+
+
+                        <select name="sindex" onChange={self.IndexSelected}>
+                          <option>Choisir un index</option>        
+                          {indexes.map((i) => {
+                            return <option key={i} value={i}>{i}</option>;
+                            }
+                          )}
+                        </select>

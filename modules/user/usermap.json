@@ -1,0 +1,106 @@
+{
+    "description": {
+        "id":"description",
+        "en": "Description",
+        "fr": "Description"
+    },
+    "name": {
+        "id":"name",
+        "en": "Name",
+        "fr": "Nom"
+       
+    },
+    "firstname": {
+        "id":"firstname",
+        "en": "FirstName",
+        "fr": "Prénom"
+    },
+    "email":{
+      "id":"email",
+      "en": "Email",
+      "fr": "Email"
+    },
+     "imgurl": {
+        "id":"imgurl",
+        "en": "Profile Picture",
+        "fr": "Image de Profil"
+    },
+    "username":{
+        "id":"username",
+        "en": "User Name",
+        "fr": "Login"
+    },
+    "password":{
+        "id":"password",
+        "en": "Password",
+        "fr": "Mot de passe"
+    },
+    "portail":{
+       "id" :"portail",
+       "en": "Portal",
+       "fr": "Portail"
+    },
+    "profilename":{
+        "id":"profilename",
+        "en": "Profile Name",
+        "fr": "Nom du profil"
+    },
+    "tache":{
+        "id":"tache",
+        "en": "Task",
+        "fr": "Activité(s)"
+    },
+    "title":{
+        "id":"title",
+        "en": "Title",
+        "fr": "Titre"
+    },
+     "comment":{
+        "id":"comment",
+        "en": "Comment",
+        "fr": "Commentaire"
+    },
+    "address":{
+        "id":"address",
+        "en": "Address",
+        "fr": "Adresse"
+    },
+      "phone":{
+        "id":"phone",
+        "en": "Phone",
+        "fr": "Téléphone"
+    },
+     "birthdate":{
+        "id":"birthdate",
+        "en": "Birthdate",
+        "fr": "Date de Naissance"
+    },
+    "country":{
+        "id":"country",
+        "en": "country",
+        "fr": "Pays"
+    },
+    "institution":{
+        "id":"institution",
+        "en": "Institution",
+        "fr": "Institution"
+    },
+    "fonction":{
+        "id":"fonction",
+        "en": "Function",
+        "fr": "Fonction"
+    },
+    "appartenance":{
+        "id":"appartenance",
+        "en": "Belonging",
+        "fr": "Appartenance"
+    }
+}
+
+
+
+    
+          
+          
+        
+         

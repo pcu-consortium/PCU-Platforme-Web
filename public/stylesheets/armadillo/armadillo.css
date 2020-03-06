@@ -1,0 +1,219 @@
+
+.navbar-default {
+  background-image:none;
+  background-color: #921a22;
+  border-color: #921a22;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Segoe UI Light", "Helvetica Neue", "Segoe UI", "Segoe WP", sans-serif;
+  font-weight: 200; 
+  color: #23527c;
+  /*color: #921a22;*/
+}
+
+h1.panel-title , h2.panel-title , h3.panel-title , h4.panel-title , h5.panel-title  {
+  /*font-family: "Segoe UI Light", "Helvetica Neue", "Segoe UI", "Segoe WP", sans-serif;*/
+  font-weight: 100; 
+  /*color: #921a22;*/
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  font-family: "Segoe UI Light", "Helvetica Neue", "Segoe UI", "Segoe WP", sans-serif;
+  font-weight: 100; 
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  background-image: none;
+  color: white;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none;
+}
+
+.navbar .active > a > .badge {
+  color: #921a22;
+  background-color: rgb(255, 255, 255);
+}
+
+/*/!*.panel-primary, *!/*/
+/*.panel-info  {*/
+  /*border-color: #921a22;*/
+/*}*/
+
+/*/!*.panel-primary > .panel-heading, *!/*/
+/*.panel-info > .panel-heading {*/
+  /*background-color: #921a22;*/
+  /*border-color: #921a22;*/
+  /*color: #ffffff;*/
+  /*background-image: none;*/
+/*}*/
+
+/*.panel-info > .panel-heading .badge {*/
+  /*background-color: #ffffff;*/
+  /*color: #921a22;*/
+/*}*/
+
+/*.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  text-shadow: 0 -1px 0 #286090;
+  background-image: none;
+  background-color: #921a22;
+  border-color: #2b669a;
+}
+*/
+
+.progress-bar-info {
+  background-color: #921a22;
+}
+
+/*.btn-info, .btn-info:hover, .btn-info:focus {
+  background-color: #921a22;
+  border-color: #921a22;
+}
+
+.btn-info.disabled, .btn-info[disabled], fieldset[disabled] .btn-info, .btn-info.disabled:hover, .btn-info[disabled]:hover, fieldset[disabled] .btn-info:hover, .btn-info.disabled:focus, .btn-info[disabled]:focus, fieldset[disabled] .btn-info:focus, .btn-info.disabled:active, .btn-info[disabled]:active, fieldset[disabled] .btn-info:active, .btn-info.disabled.active, .btn-info[disabled].active, fieldset[disabled] .btn-info.active {
+  background-color: #921a22;
+  border-color: #921a22;
+  opacity: 0.5;
+}*/
+
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #d4d4d4;
+  border-color: #d4d4d4;
+}
+
+/*.list-group-item.active .list-group-item-heading, 
+.list-group-item.active:hover .list-group-item-heading {
+  color: #333333 !important;
+}
+*/
+
+.list-group-item.active .badge {
+  background-color: #921a22;
+}
+
+.document-heading a {
+  color: #921a22 !important;
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+  position: absolute;
+  line-height: 34px;
+}
+
+#sequences input {
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.btn-toolbar.darkroom-toolbar-actions {
+  margin-bottom: 8px;
+}
+
+.darkroom-image-container {
+  border: 1px solid #aaaaaa;
+  background-color: #eeeeee;
+}
+
+.btn.darkroom-button-hidden {
+  display: none;
+}
+
+.popover-content input {
+  width: 100px;
+}
+
+.canvas-container {
+  margin: auto;
+}
+
+
+.form-inline .form-control {
+  width: 100%;
+}
+
+.darkroom-toolbar-actions .btn {
+  border-radius: 0;
+}
+
+.video-section, .see-also-section, .video-info-section {
+  padding: 12px 0;
+  border-top: 1px solid rgb(146, 26, 34);
+  border-bottom: 1px solid rgb(146, 26, 34);
+}
+
+.video-section {
+  background-color: rgba(146, 26, 34, 0.15);
+}
+
+.video-info-section {
+  padding: 12px 0;
+  background-color: rgba(146, 26, 34, 0.1);
+}
+
+.see-also-section {
+  background-color: rgba(146, 26, 34, 0.05);
+}
+
+.video-section video {
+  border: 2px solid rgb(146, 26, 34);
+}
+
+.section800 {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+
+.section960 {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.editableform .form-control {
+  width: 320px !important;
+}
+
+#document-modal .modal-dialog {
+  width: 95%;
+  max-width: 1200px;
+}
+
+#document-modal .modal-dialog,
+#document-modal .modal-content {
+    /* 80% of window height */
+    height: 95%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#document-modal .modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+
+.glyphicon.spin{
+    -webkit-transform-origin: 50% 58%;
+    transform-origin:50% 58%;
+    -ms-transform-origin:50% 58%; /* IE 9 */
+    -webkit-animation: spin .2s infinite linear;
+    -moz-animation: spin .2s infinite linear;
+    -o-animation: spin .2s infinite linear;
+    animation: spin .2s infinite linear;
+}
+

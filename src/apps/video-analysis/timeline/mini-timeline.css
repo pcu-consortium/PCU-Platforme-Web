@@ -1,0 +1,133 @@
+
+
+.vt-mini-scrollbar-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+/*.vt-mini-scrollbar-shadow {*/
+    /*background: #f5f5f5;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+    /*border-left: 1px solid #ccc;*/
+    /*border-right: 1px solid #ccc;*/
+    /*padding: 4px 0px;*/
+    /*box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.2);*/
+    /*box-sizing: content-box;*/
+/*}*/
+
+.vt-mini-scrollbar-wrapper {
+    position: relative;
+    padding-left: 130px;
+    top: 0;
+    height: 100%;
+    overflow: hidden;/*
+  background: #f4f5f5;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.2);*/
+}
+
+.vt-mini-scrollbar-tracks {
+    width: 100%;
+    /*height: 30px;*/
+    /*position: relative;*/
+    /*box-sizing: content-box;*/
+}
+
+.vt-mini-scrollbar-track {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    /*box-sizing: content-box;*/
+    margin-bottom: -1px;
+    overflow-y: visible;
+}
+
+.vt-mini-scrollbar-track:last-child {
+    margin-bottom: 0px;
+}
+
+.vt-mini-scrollbar-track:nth-child(even) {
+    background: #EEE;
+}
+
+.vt-mini-scrollbar-track:nth-child(odd) {
+    background: #DDD;
+}
+
+.vt-mini-scrollbar-trackevent {
+    /*background: rgba(0,0,0,0.4);*/
+    margin-top: -1px;
+    margin-bottom: -1px;
+    background-color: #5C6BC0; /* Indigo 400 */
+    /*background-color: #E33;*/
+    top: 0px;
+    bottom: 0px;
+    /*border-radius: 2px;*/
+    position: absolute;
+    z-index: 1;
+    display: block;
+    opacity: 1;
+    border: 1px solid #3F51B5; /* Indigo 500 */
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.vt-mini-scrollbar-trackevent.active {
+    background-color: #42A5F5;
+    border-color: #2196F3;
+}
+
+.vt-mini-scrollbar-trackevent.selected, .vt-mini-scrollbar-trackevent.active.selected {
+    background-color: #ef5350;
+    border-color: #f44336;
+}
+
+.vt-mini-scrollbar-trackevent.filtered-out {
+    opacity: 0.2;
+}
+
+.custom-mini-tracks .vt-mini-scrollbar-trackevent:hover{
+    background-color: #ef5350;
+    z-index: 10;
+    border-color: #f44336;
+}
+
+
+.vt-mini-timeline-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #d9534f;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+
+/*.custom-mini-tracks  .vt-mini-scrollbar-track{*/
+    /*height: 7px;*/
+/*}*/
+
+
+/*.custom-mini-tracks  .vt-mini-scrollbar-trackevent{*/
+    /*/!*border: 1px solid #33E;*!/*/
+    /*/!*box-shadow: inset 0 1px #FFF;*!/*/
+    /*/!*box-shadow: rgb(204, 204, 204) 0px 0px 0px 1px;*!/*/
+    /*border: 1px solid rgba(0, 0, 0, 0.5);*/
+/*}*/

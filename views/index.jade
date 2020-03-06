@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    #navbar
+    #container.fill-parent
+
+    script(type="text/javascript").
+        //<![CDATA[
+        $(document).ready(function() {
+            var content = !{JSON.stringify(content)};
+            var blocks = !{JSON.stringify(blocks)};
+            if (CmsAdmin) CmsAdmin.api = '#{api}';
+
+            var params = {
+                content: !{JSON.stringify(content)},
+                baseUrl: '#{baseUrl}',
+                site: '#{site}',
+                api: '#{api}',
+                searchUrl: '#{searchUrl}',
+                blocks: !{JSON.stringify(blocks ||{})}
+            };
+            window.AdminGlobals = params;
+            window.__data__ = params;
+            var component = ReactDOM.render(
+                React.createElement(!{app}, params),
+                document.getElementById('container')
+            );
+
+            if (window.initRootReactInstance){
+                initRootReactInstance(component);
+            }
+        });//]]>

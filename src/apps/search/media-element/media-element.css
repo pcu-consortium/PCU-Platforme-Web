@@ -1,0 +1,42 @@
+
+h4.media-title {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.media-line-2, .media-line-3 {
+  line-height: 22px;
+}
+
+.thumbnail.search-thumbnail {
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.thumbnail.search-thumbnail .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 11px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.search-thumbnail .media-large h5.media-title {
+  height: 14px;
+}
+
+.search-thumbnail .caption>h5 {
+  color: #FFF;
+  margin-bottom: 0px;
+}
+
+.media-large>.search-thumbnail .caption>h5 {
+  font-size: 14px;
+}
+
+.media-small>.search-thumbnail .caption>h5 {
+  font-size: 10px;
+}
+  
